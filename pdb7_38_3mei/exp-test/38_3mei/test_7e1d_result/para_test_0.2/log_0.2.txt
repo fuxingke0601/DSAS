@@ -1,0 +1,64 @@
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN   Filename: ../shelx_7e1d-sf_ecal_cad_unique.mtz 
+
+Reading MTZ completed,total reflections:  13019
+ not missing reflections :                 7789
+
+*************************************************************
+
+
+HMAX :   17 KMAX :   26 LMAX :   48
+
+
+Grid of density map : (   35   53   97)
+
+ 弱点设置的阈值和实际阈值,设置的阈值百分:  0.24471081793308258       0.244710818      0.200000003    
+ 用于计算sayre等式的衍射点的数目和阈值 :         1300   1.36803138    
+ 弱衍射点的数目 :         6788
+ 观测点中设置的弱点的数目，missing点的数目        1558        5230
+
+*************************************************************
+
+
+************************  Charge Flipping  ****************************
+
+     ntry  rfactor    ntry  rfactor    ntry  rfactor    ntry  rfactor
+           0
+ 用于修正的总的衍射点数目，观测到的衍射点数目，设置的衍射点数目       10400       13019        1300
+ 要修正的衍射点数目：        1300
+ 三相位关系数目的最小值和最大值，平均值:         266        1360         672
+ the number of multiplicity point:         2172
+       1  16.4723   0.6233  16.9317
+       2  26.4413   0.6140  34.2307
+       3  17.7065   0.6080  20.0393
+       4  17.9042   0.6191  16.2548
+       5  16.3680   0.6178  15.8023
+       6  18.7793   0.6178  16.9442
+       7  20.2733   0.6281  25.4656
+       8  17.9674   0.6141  17.3129
+       9  15.3240   0.6197  17.2025
+      10  20.3665   0.6191  20.1546
+top best 10 CC is : 25.4656
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: recover_7.mtz   Filename: recover_7.mtz 
+
+top best 10 CC is : 34.2307
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: recover_2.mtz   Filename: recover_2.mtz 
+
+top best 10 CC is : 20.1546
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: recover_10.mtz   Filename: recover_10.mtz 
+
+Best CC is :    2 26.4413  0.6140 34.2307
+ charge_flip：           0 阈值设定方法:            1
+**********************************************************************
+

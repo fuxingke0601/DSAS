@@ -1,0 +1,68 @@
+3mei-sf.mtz
+shelx_3mei-sf_ecal_cad_unique.mtz
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN   Filename: shelx_3mei-sf_ecal_cad_unique.mtz 
+
+Reading MTZ completed,total reflections:   6080
+ not missing reflections :                 4973
+
+*************************************************************
+
+
+HMAX :   15 KMAX :   18 LMAX :   19
+
+
+Grid of density map : (   31   37   39)
+
+ 弱点设置的阈值和实际阈值,设置的阈值百分:  0.66626060009002686       0.666260600      0.479999989    
+ 用于计算sayre等式的衍射点的数目和阈值 :         1000   1.29229259    
+ 弱衍射点的数目 :         3494
+ 观测点中设置的弱点的数目，missing点的数目        2387        1107
+
+*************************************************************
+
+
+************************  Charge Flipping  ****************************
+
+     ntry  rfactor    ntry  rfactor    ntry  rfactor    ntry  rfactor
+           1
+ 用于修正的总的衍射点数目，观测到的衍射点数目，设置的衍射点数目        3996        6080        1000
+ 要修正的衍射点数目：        1000
+ 三相位关系数目的最小值和最大值，平均值:         146        1048         375
+ the number of multiplicity point:          444
+       1  31.5406   0.6112  30.8111
+       2  33.2703   0.6003  29.8638
+       3  36.7929   0.5806  35.1648
+       4  36.6774   0.5862  34.4861
+       5  30.9874   0.6056  27.4642
+       6  28.0271   0.6094  25.4658
+       7  37.3534   0.5811  34.8619
+       8  31.2534   0.6019  27.4545
+       9  36.6767   0.5949  35.4146
+      10  31.6808   0.6005  28.2006
+top best 10 CC is : 34.8619
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: recover_7.mtz   Filename: recover_7.mtz 
+
+top best 10 CC is : 35.4146
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: recover_9.mtz   Filename: recover_9.mtz 
+
+top best 10 CC is : 35.1648
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: recover_3.mtz   Filename: recover_3.mtz 
+
+Best CC is :    9 36.6767  0.5949 35.4146
+ charge_flip：           0 阈值设定方法:            1
+**********************************************************************
+
+#############################
+DSAS completed successfully

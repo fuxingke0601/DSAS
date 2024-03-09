@@ -1,0 +1,1557 @@
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 8.0.012: FFTBIG           version 8.0.012 :         ##
+ ###############################################################
+ User: fuxingke  Run date:  9/ 3/2024 Run time: 01:52:54 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 2011.
+ "Overview of the CCP4 suite and current developments". Acta Cryst. D67, 235-242.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+ Data line--- title fft_to_map
+ Data line--- xyzlim asu
+ Map limits will be set to the CCP4 asymmetric unit
+ Data line--- scale F1 1.0
+
+
+  Scale factor and Temperature factor for       F1       1.0000   0.0000
+ Data line--- labin F1=FC PHI=PHIC
+ Data line--- end
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN   Filename: recover_349.mtz 
+
+ * Title:
+
+ recovered mtz
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 0
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+
+ * Number of Columns = 6
+
+ * Number of Reflections = 13019
+
+ * Missing value set to NaN in input mtz file
+
+ * HISTORY for current MTZ file :
+
+
+ * Column Labels :
+
+ H K L FO FC PHIC
+
+ * Column Types :
+
+ H H H F F P
+
+ * Associated datasets :
+
+ 0 0 0 0 0 0
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   35.8140   52.7620   97.3970   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00042    0.24958     (     48.699 -      2.002 A )
+
+ * Sort Order :
+
+      0     0     0     0     0
+
+ * Space group = 'P 21 21 21' (number     19)
+
+ Map cell is set to:   35.81   52.76   97.40   90.00   90.00   90.00
+
+ ** The limits of the map have been set to those of
+ the CCP4 asymmetric unit for appropriate spacegroup
+
+ For map spacegroup   19 these limits are:
+
+    Min X   Max X   Min Y   Max Y   Min Z   Max Z
+    0.000   1.000   0.000   1.000   0.000   0.250
+
+ expressed in fractional coordinates and with x,y,z
+ referring to the unpermutated axes.
+
+  FREE column NOT assigned
+
+
+ Coefficients used for Fourier calculation:-
+ *******************************************
+
+
+ Fourier synthesis: ( k1 * F1) exp( i PHI)
+
+    F1   =  FC
+    PHI  =  PHIC                          
+
+
+
+ Resolution limits:     48.70     2.00
+ Scale & B for F1 :    1.00000  0.00000
+
+ *  F used = Scale * exp(- B * (sin theta/lambda)**2);  ** Scale and B applied to F BEFORE squaring for Patterson  **
+
+
+ *** No reflections excluded ***
+
+
+
+
+ Number of symmetry operations = 4 Space-group for FFT =   1  True space-group =  19 List terms gt     0
+
+ Axis order in map: fast=Y,  medium= X,  slow(section)= Z
+
+
+ Permutation of axes: (program=input)  x= X,  y= Z,  z= Y
+
+ Before permutation :
+           Maximum indices hkl ...................   18   26   49
+           Sampling intervals on xyz .............   56   80  144
+           Map limits in grid points on xyz ......    0   55       0   79       0   36
+
+ Binary map will be written to stream   1
+
+ Data is assumed to be unsorted
+ After permutation :
+           Maximum indices hkl ...................   18   49   26
+           Sampling intervals on xyz .............   56  144   80
+           Map limits in grid points on xyz ......    0   55       0   36       0   79
+
+
+
+
+
+
+                              Fourier synthesis for space-group P1
+
+  Buffer size =      661248
+
+
+
+  ****  Largest F Value *** Reflection   4  0  0           6.35
+
+                                         Mean F            0.48
+
+      52072 Structure factors used out of 13018 on the input file
+
+ Logical Name: MAPOUT   Filename: recover_349_bestCC_map.map 
+
+File name for output map file on unit   1 : recover_349_bestCC_map.map
+logical name MAPOUT
+
+ F000 =    0.000E+00          V =    1.840E+05
+
+ Section axis is Z
+
+ Binary output has Y running fastest, X next
+  Section Z =   0 minimum rho =        -0.0020 at X =   4 Y =  40 maximum rho =         0.0048 at X =  43 Y =  46
+  Section Z =   1 minimum rho =        -0.0020 at X =  29 Y =  16 maximum rho =         0.0044 at X =  43 Y =  46
+  Section Z =   2 minimum rho =        -0.0017 at X =  41 Y =  48 maximum rho =         0.0036 at X =  54 Y =  73
+  Section Z =   3 minimum rho =        -0.0019 at X =  28 Y =  37 maximum rho =         0.0052 at X =   6 Y =  75
+  Section Z =   4 minimum rho =        -0.0021 at X =  19 Y =  79 maximum rho =         0.0054 at X =  21 Y =   9
+  Section Z =   5 minimum rho =        -0.0019 at X =   7 Y =  59 maximum rho =         0.0077 at X =  21 Y =   9
+  Section Z =   6 minimum rho =        -0.0022 at X =  29 Y =  35 maximum rho =         0.0089 at X =  18 Y =   1
+  Section Z =   7 minimum rho =        -0.0023 at X =  16 Y =   6 maximum rho =         0.0191 at X =  19 Y =   6
+  Section Z =   8 minimum rho =        -0.0023 at X =  16 Y =   6 maximum rho =         0.0431 at X =  19 Y =   6
+  Section Z =   9 minimum rho =        -0.0020 at X =   1 Y =  42 maximum rho =         0.0476 at X =  19 Y =   6
+  Section Z =  10 minimum rho =        -0.0021 at X =  22 Y =  49 maximum rho =         0.0259 at X =  19 Y =   6
+  Section Z =  11 minimum rho =        -0.0019 at X =  14 Y =  11 maximum rho =         0.0058 at X =  25 Y =  12
+  Section Z =  12 minimum rho =        -0.0029 at X =  20 Y =   7 maximum rho =         0.0047 at X =  22 Y =   8
+  Section Z =  13 minimum rho =        -0.0022 at X =  50 Y =  74 maximum rho =         0.0060 at X =  31 Y =  47
+  Section Z =  14 minimum rho =        -0.0019 at X =  33 Y =  10 maximum rho =         0.0052 at X =  31 Y =  47
+  Section Z =  15 minimum rho =        -0.0024 at X =   3 Y =  33 maximum rho =         0.0033 at X =  11 Y =  54
+  Section Z =  16 minimum rho =        -0.0026 at X =  12 Y =  48 maximum rho =         0.0077 at X =  10 Y =  47
+  Section Z =  17 minimum rho =        -0.0023 at X =   6 Y =  18 maximum rho =         0.0204 at X =  10 Y =  48
+  Section Z =  18 minimum rho =        -0.0021 at X =   8 Y =  45 maximum rho =         0.0284 at X =  10 Y =  48
+  Section Z =  19 minimum rho =        -0.0024 at X =  11 Y =  50 maximum rho =         0.0388 at X =   6 Y =  16
+  Section Z =  20 minimum rho =        -0.0018 at X =  12 Y =  23 maximum rho =         0.0417 at X =   6 Y =  16
+  Section Z =  21 minimum rho =        -0.0021 at X =  35 Y =   5 maximum rho =         0.0236 at X =   6 Y =  16
+  Section Z =  22 minimum rho =        -0.0021 at X =  47 Y =  76 maximum rho =         0.0065 at X =  53 Y =   5
+  Section Z =  23 minimum rho =        -0.0020 at X =   5 Y =  18 maximum rho =         0.0046 at X =  55 Y =  69
+  Section Z =  24 minimum rho =        -0.0023 at X =  11 Y =  29 maximum rho =         0.0056 at X =  14 Y =  29
+  Section Z =  25 minimum rho =        -0.0023 at X =  11 Y =  30 maximum rho =         0.0188 at X =   8 Y =  29
+  Section Z =  26 minimum rho =        -0.0022 at X =   0 Y =  34 maximum rho =         0.0379 at X =   8 Y =  29
+  Section Z =  27 minimum rho =        -0.0018 at X =  20 Y =  31 maximum rho =         0.0422 at X =   8 Y =  29
+  Section Z =  28 minimum rho =        -0.0018 at X =  12 Y =  13 maximum rho =         0.0262 at X =   8 Y =  29
+  Section Z =  29 minimum rho =        -0.0024 at X =  38 Y =  25 maximum rho =         0.0083 at X =   8 Y =  30
+  Section Z =  30 minimum rho =        -0.0020 at X =   6 Y =  30 maximum rho =         0.0048 at X =   7 Y =  14
+  Section Z =  31 minimum rho =        -0.0018 at X =   8 Y =  70 maximum rho =         0.0071 at X =  41 Y =  25
+  Section Z =  32 minimum rho =        -0.0019 at X =  46 Y =  29 maximum rho =         0.0043 at X =  41 Y =  25
+  Section Z =  33 minimum rho =        -0.0020 at X =  51 Y =  40 maximum rho =         0.0035 at X =  35 Y =  49
+  Section Z =  34 minimum rho =        -0.0020 at X =  12 Y =  44 maximum rho =         0.0034 at X =  48 Y =  49
+  Section Z =  35 minimum rho =        -0.0017 at X =  39 Y =   8 maximum rho =         0.0032 at X =  23 Y =   5
+  Section Z =  36 minimum rho =        -0.0017 at X =  28 Y =  28 maximum rho =         0.0036 at X =  24 Y =   5
+
+
+ Overall maximum rho =          0.0476 on section Z =   9 at X =  19 Y =   6
+
+
+ Overall minimum rho =         -0.0029 on section Z =  12 at X =  20 Y =   7
+
+  Average density on this map is         -0.00000290
+
+ Logical Name: MAPOUT   Filename: recover_349_bestCC_map.map 
+
+File name for input map file on unit   1 : recover_349_bestCC_map.map
+file size 664384 ; logical name MAPOUT
+
+
+
+           Number of columns, rows, sections ...............   80   56   37
+           Map mode ........................................    2
+           Start and stop points on columns, rows, sections     0   79    0   55    0   36
+           Grid sampling on x, y, z ........................   56   80  144
+           Cell dimensions .................................   35.8140    52.7620    97.3970    90.0000    90.0000    90.0000
+           Fast, medium, slow axes .........................    Y    X    Z
+           Minimum density .................................    -0.00285
+           Maximum density .................................     0.04758
+           Mean density ....................................    -0.00000
+           Rms deviation from mean density .................     0.00094
+           Space-group .....................................   19
+           Number of titles ................................    1
+
+
+     Labels:                            
+  fft_to_map
+
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ FFTBIG:  Normal termination
+Times: User:       0.1s System:    0.0s Elapsed:     0:03  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 8.0.012: PEAKMAX          version 8.0.012 :         ##
+ ###############################################################
+ User: fuxingke  Run date:  9/ 3/2024 Run time: 01:52:57 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 2011.
+ "Overview of the CCP4 suite and current developments". Acta Cryst. D67, 235-242.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+
+ Logical Name: MAPIN   Filename: recover_349_bestCC_map.map 
+
+File name for input map file on unit   3 : recover_349_bestCC_map.map
+file size 664384 ; logical name MAPIN
+
+
+
+           Number of columns, rows, sections ...............   80   56   37
+           Map mode ........................................    2
+           Start and stop points on columns, rows, sections     0   79    0   55    0   36
+           Grid sampling on x, y, z ........................   56   80  144
+           Cell dimensions .................................   35.8140    52.7620    97.3970    90.0000    90.0000    90.0000
+           Fast, medium, slow axes .........................    Y    X    Z
+           Minimum density .................................    -0.00285
+           Maximum density .................................     0.04758
+           Mean density ....................................    -0.00000
+           Rms deviation from mean density .................     0.00094
+           Space-group .....................................   19
+           Number of titles ................................    1
+
+
+     Labels:                            
+  fft_to_map
+
+
+  Symmetry operations:  X,  Y,  Z                                                                       
+  Symmetry operations:  -X+1/2,  -Y,  Z+1/2                                                             
+  Symmetry operations:  X+1/2,  -Y+1/2,  -Z                                                             
+  Symmetry operations:  -X,  Y+1/2,  -Z+1/2                                                             
+ Data line--- threshhold rms 1.2
+ Data line--- numpeaks 6
+ Data line--- output brookhaven frac
+ Data line--- bfactor 20.0 1.0
+ Data line--- residue HAT
+ Data line--- atname Se
+ Data line--- chain X
+
+ Find     6 highest peaks above    0.001
+
+
+ Orthogonalisation code 1: A // XO, C* // ZO (Standard Brookhaven) 
+
+ 
+ STANDARD PDB COORDINATE SETTING WILL BE ASSUMED
+ IF NO SCALE CARDS PRESENT  IN  INPUT  COORDINATE  FILE
+ 
+ Transformation matrix    Fractional to orthogonal
+
+    35.8140    0.0001    0.0001
+     0.0000   52.7620    0.0001
+     0.0000    0.0000   97.3970
+
+ Entire map is to be searched
+
+
+FORMATTED      UNKNOWN file opened on unit   2
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: XYZFRC, Filename: recover_349_peaks_ha.txt
+<!--SUMMARY_END--></FONT></B>
+
+
+  Logical name: XYZOUT  File name: recover_349_pdb_CF.pdb
+  PDB file is being opened on unit 1 for OUTPUT.
+
+
+ List of peaks in order of location
+ ==================================
+
+ Peaks related by symmetry are assigned the same site number
+
+ Count Site Height        Grid         Fractional coordinates   Orthogonal coordinates
+
+ WARNING: delta Rho too small for peak determination at   3  22   0, delrho values  0.3946E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   5  43   0, delrho values  0.1858E-04  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   5  47   0, delrho values  0.7922E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  13  49   0, delrho values  0.9226E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  20  26   0, delrho values  0.3306E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  35  19   0, delrho values  0.2984E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  37  50   0, delrho values  0.6919E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  42  32   0, delrho values  0.6034E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  42  49   0, delrho values  0.9891E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  46  43   0, delrho values  0.4233E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  52  24   0, delrho values  0.2495E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  52  39   0, delrho values  0.2546E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  55  45   0, delrho values  0.3027E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  62  53   0, delrho values  0.9564E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  65  17   0, delrho values  0.9107E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  68  11   0, delrho values  0.3148E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  72  19   0, delrho values  0.8727E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  76  52   0, delrho values  0.6057E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  70   0   2, delrho values  0.9369E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  70  55   2, delrho values  0.7674E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  59  55   3, delrho values  0.8384E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  50   3, delrho values  0.6067E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0   8   4, delrho values  0.7010E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  50  55   4, delrho values  0.7250E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79   7   4, delrho values  0.4515E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  32   5, delrho values  0.2717E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  47   5, delrho values  0.5407E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  55   5, delrho values  0.2518E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  21   0   5, delrho values  0.1227E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  55   5, delrho values  0.1979E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  55   5, delrho values  0.3305E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  40   6, delrho values  0.2198E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  78   0   6, delrho values  0.4895E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  44   8, delrho values  0.2924E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   5   0   9, delrho values  0.8532E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  67  19  11, delrho values  0.9432E-03  0.1483E-06
+ WARNING: delta Rho too small for peak determination at  68   0  11, delrho values  0.8184E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  41  12, delrho values  0.1471E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  57   0  13, delrho values  0.1904E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  46   0  14, delrho values  0.9110E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  50   0  14, delrho values  0.5403E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   8   0  15, delrho values  0.3730E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   8  55  15, delrho values  0.6461E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  78   0  15, delrho values  0.8009E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  53  16, delrho values  0.2094E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   5  55  17, delrho values  0.4404E-04  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  21   0  17, delrho values  0.9039E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  41  18, delrho values  0.6950E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  77   0  18, delrho values  0.3326E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  35  20, delrho values  0.5461E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  12   0  20, delrho values  0.5467E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  18  55  20, delrho values  0.7296E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  52  55  22, delrho values  0.8702E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  65  55  22, delrho values  0.9003E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0   9  23, delrho values  0.8370E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79   9  23, delrho values  0.8793E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  54  23, delrho values  0.5685E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   2  55  24, delrho values  0.1631E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  25  55  24, delrho values  0.6192E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  48  29  24, delrho values  0.7867E-03  0.6508E-06
+ WARNING: delta Rho too small for peak determination at   0   6  27, delrho values  0.4647E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  24  55  28, delrho values  0.9728E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  37  55  28, delrho values  0.4845E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  43  55  28, delrho values  0.1081E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   0  50  29, delrho values  0.9961E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  72  55  29, delrho values  0.9447E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  46  29, delrho values  0.5949E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  32   0  30, delrho values  0.2300E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  51  30, delrho values  0.6980E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  46   0  32, delrho values  0.6535E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  74   0  34, delrho values  0.7522E-04  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   5  24  36, delrho values  0.4684E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   6  41  36, delrho values  0.5592E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at   8   3  36, delrho values  0.6805E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  10   6  36, delrho values  0.2114E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  11  54  36, delrho values  0.6717E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  13  48  36, delrho values  0.6075E-04  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  15  14  36, delrho values  0.8438E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  20  11  36, delrho values  0.4148E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  38  41  36, delrho values  0.8254E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  42   6  36, delrho values  0.9576E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  46  15  36, delrho values  0.2378E-04  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  47   2  36, delrho values  0.2938E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  49   9  36, delrho values  0.2577E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  50  50  36, delrho values  0.8896E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  52  28  36, delrho values  0.8623E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  53   9  36, delrho values  0.8254E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  55  35  36, delrho values  0.7052E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  60  45  36, delrho values  0.6519E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  65  33  36, delrho values  0.6283E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  67   4  36, delrho values  0.7955E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  67  37  36, delrho values  0.9405E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  70   9  36, delrho values  0.9202E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  71  53  36, delrho values  0.6521E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  75  18  36, delrho values  0.8676E-03  0.1080E-06
+ WARNING: delta Rho too small for peak determination at  75  18  36, delrho values  0.3646E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  78   1  36, delrho values  0.5437E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  20  36, delrho values  0.9020E-03  0.0000E+00
+ WARNING: delta Rho too small for peak determination at  79  20  36, delrho values  0.9593E-03  0.0000E+00
+   1    1          0.00    22   3   0   0.3955  0.0382  0.0000    14.16   2.02   0.00
+   2    2          0.00    43   5   0   0.7641  0.0599  0.0000    27.37   3.16   0.00
+   3    3          0.00    47   5   0   0.8477  0.0649  0.0000    30.36   3.42   0.00
+   4    4          0.00    49   9   0   0.8762  0.1096  0.0000    31.38   5.79   0.00
+   5    5          0.00    10  10   0   0.1840  0.1248  0.0000     6.59   6.59   0.00
+   6    6          0.00    37  13   0   0.6634  0.1569  0.0000    23.76   8.28   0.00
+   7    7          0.00    49  13   0   0.8735  0.1629  0.0000    31.29   8.59   0.00
+   8    8          0.00    42  18   0   0.7563  0.2258  0.0000    27.08  11.91   0.00
+   9    9          0.00    26  20   0   0.4592  0.2535  0.0000    16.45  13.37   0.00
+  10    8          0.00    14  22   0   0.2560  0.2751  0.0000     9.17  14.52   0.00
+  11    6          0.00     9  27   0   0.1638  0.3430  0.0000     5.87  18.10   0.00
+  12    3          0.00    19  35   0   0.3475  0.4354  0.0000    12.45  22.97   0.00
+  13    1          0.00    50  37   0   0.8952  0.4614  0.0000    32.06  24.35   0.00
+  14   10          0.00     2  42   0   0.0356  0.5220  0.0000     1.27  27.54   0.00
+  15   11          0.00    32  42   0   0.5705  0.5265  0.0000    20.43  27.78   0.00
+  16   12          0.00    49  42   0   0.8790  0.5302  0.0000    31.48  27.97   0.00
+  17   13          0.00    43  46   0   0.7637  0.5801  0.0000    27.35  30.61   0.00
+  18   14          0.00    47  48   0   0.8411  0.6052  0.0000    30.12  31.93   0.00
+  19   15          0.00    24  52   0   0.4217  0.6476  0.0000    15.10  34.17   0.00
+  20   16          0.00    39  52   0   0.6920  0.6484  0.0000    24.78  34.21   0.00
+  21   17          0.00    45  55   0   0.8112  0.6908  0.0000    29.05  36.45   0.00
+  22   18          0.00     2  61   0   0.0312  0.7593  0.0000     1.12  40.06   0.00
+  23   19          0.00    53  62   0   0.9389  0.7724  0.0000    33.63  40.75   0.00
+  24   17          0.00    17  65   0   0.3119  0.8102  0.0000    11.17  42.75   0.00
+  25   16          0.00    11  68   0   0.1933  0.8540  0.0000     6.92  45.06   0.00
+  26   20          0.00    45  68   0   0.7990  0.8499  0.0000    28.62  44.84   0.00
+  27   21          0.00    37  69   0   0.6693  0.8606  0.0000    23.97  45.41   0.00
+  28   14          0.00    19  72   0   0.3406  0.8967  0.0000    12.20  47.31   0.00
+  29   13          0.00    15  74   0   0.2635  0.9197  0.0000     9.44  48.53   0.00
+  30   22          0.00    52  76   0   0.9291  0.9461  0.0000    33.28  49.92   0.00
+  31   23          0.00    33   2   1   0.5935  0.0275  0.0050    21.26   1.45   0.48
+  32   24          0.00    26   4   1   0.4718  0.0554  0.0074    16.90   2.92   0.73
+  33   25          0.00    54   4   1   0.9649  0.0537  0.0087    34.56   2.83   0.85
+  34   26          0.00    44  12   1   0.7824  0.1513  0.0102    28.02   7.98   0.99
+  35   27          0.00    43  14   1   0.7663  0.1740  0.0050    27.44   9.18   0.49
+  36   28          0.00    48  16   1   0.8520  0.1962  0.0074    30.51  10.35   0.72
+  37    9          0.00    54  19   1   0.9604  0.2399  0.0076    34.39  12.66   0.74
+  38    7          0.00    21  27   1   0.3731  0.3391  0.0048    13.36  17.89   0.46
+  39   29          0.00    35  28   1   0.6171  0.3472  0.0077    22.10  18.32   0.75
+  40   30          0.00    26  29   1   0.4686  0.3606  0.0075    16.78  19.03   0.73
+  41    5          0.00    38  30   1   0.6797  0.3770  0.0041    24.34  19.89   0.40
+  42    4          0.00    21  31   1   0.3766  0.3849  0.0061    13.49  20.31   0.59
+  43   31          0.00    48  32   1   0.8521  0.3956  0.0091    30.52  20.87   0.89
+  44   32          0.00    34  36   1   0.6142  0.4476  0.0073    22.00  23.62   0.71
+  45   22          0.00    24  45   1   0.4224  0.5590  0.0069    15.13  29.49   0.68
+  46   33          0.00    28  45   1   0.4939  0.5662  0.0081    17.69  29.88   0.79
+  47   34          0.00    32  51   1   0.5709  0.6397  0.0097    20.45  33.75   0.95
+  48   20          0.00    17  52   1   0.3037  0.6507  0.0083    10.88  34.33   0.81
+  49   35          0.00    43  52   1   0.7599  0.6526  0.0080    27.22  34.43   0.78
+  50   19          0.00    24  58   1   0.4356  0.7271  0.0062    15.60  38.36   0.61
+  51   18          0.00    30  59   1   0.5351  0.7372  0.0054    19.16  38.89   0.53
+  52   36          0.00    13  65   1   0.2255  0.8117  0.0079     8.07  42.83   0.77
+  53   37          0.00     2  66   1   0.0314  0.8209  0.0102     1.12  43.31   1.00
+  54   38          0.00     7  66   1   0.1202  0.8242  0.0044     4.31  43.49   0.43
+  55   39          0.00    43  71   1   0.7682  0.8825  0.0048    27.51  46.56   0.47
+  56   40          0.00    31  73   1   0.5565  0.9171  0.0094    19.93  48.39   0.91
+  57   41          0.00    39   1   2   0.7027  0.0138  0.0131    25.17   0.73   1.28
+  58   42          0.00    30   2   2   0.5299  0.0277  0.0137    18.98   1.46   1.34
+  59   43          0.00    41   5   2   0.7362  0.0647  0.0146    26.37   3.41   1.42
+  60   44          0.00    41   9   2   0.7306  0.1108  0.0123    26.17   5.85   1.20
+  61   45          0.00    54  10   2   0.9645  0.1229  0.0162    34.54   6.48   1.57
+  62   46          0.00    33  17   2   0.5914  0.2166  0.0128    21.18  11.43   1.24
+  63   47          0.00    19  20   2   0.3481  0.2490  0.0124    12.47  13.14   1.21
+  64   48          0.00    33  22   2   0.5924  0.2759  0.0138    21.22  14.55   1.35
+  65   49          0.00     5  23   2   0.0874  0.2851  0.0143     3.13  15.04   1.39
+  66   50          0.00    29  23   2   0.5109  0.2832  0.0147    18.30  14.94   1.43
+  67   51          0.00    37  23   2   0.6658  0.2911  0.0134    23.84  15.36   1.31
+  68   52          0.00     2  24   2   0.0349  0.2944  0.0143     1.25  15.53   1.39
+  69   53          0.00    52  24   2   0.9358  0.3003  0.0120    33.51  15.84   1.17
+  70   54          0.00    27  31   2   0.4850  0.3872  0.0158    17.37  20.43   1.54
+  71   55          0.00    31  38   2   0.5535  0.4795  0.0136    19.82  25.30   1.33
+  72   56          0.00    47  39   2   0.8449  0.4930  0.0140    30.26  26.01   1.36
+  73   57          0.00    14  41   2   0.2437  0.5073  0.0135     8.73  26.77   1.32
+  74   58          0.00     6  42   2   0.1094  0.5292  0.0173     3.92  27.92   1.69
+  75   59          0.00    36  46   2   0.6402  0.5753  0.0152    22.93  30.36   1.48
+  76   60          0.00    25  49   2   0.4411  0.6082  0.0170    15.80  32.09   1.65
+  77   61          0.00     9  51   2   0.1658  0.6381  0.0113     5.94  33.67   1.10
+  78   62          0.00    13  55   2   0.2372  0.6845  0.0150     8.50  36.12   1.46
+  79   63          0.00     6  59   2   0.1150  0.7398  0.0127     4.12  39.03   1.24
+  80   64          0.00     5  63   2   0.0851  0.7874  0.0116     3.05  41.55   1.13
+  81   65          0.00    30  63   2   0.5356  0.7860  0.0169    19.18  41.47   1.65
+  82   66          0.00    21  65   2   0.3798  0.8120  0.0130    13.60  42.84   1.27
+  83   67          0.00    40  67   2   0.7147  0.8338  0.0110    25.60  43.99   1.07
+  84   68          0.00     0  70   2   0.0000  0.8723  0.0147     0.00  46.02   1.43
+  85   68          0.00    55  70   2   0.9821  0.8730  0.0139    35.17  46.06   1.35
+  86   69          0.00    54  73   2   0.9556  0.9136  0.0130    34.23  48.20   1.27
+  87   70          0.00    22  76   2   0.3908  0.9440  0.0109    14.00  49.81   1.06
+  88   71          0.00    18  78   2   0.3178  0.9715  0.0170    11.38  51.26   1.66
+  89   72          0.00    31  78   2   0.5512  0.9741  0.0126    19.74  51.39   1.22
+  90   73          0.00    36   8   3   0.6448  0.0978  0.0221    23.09   5.16   2.15
+  91   74          0.00     4  11   3   0.0745  0.1322  0.0213     2.67   6.98   2.08
+  92   75          0.00    50  12   3   0.8964  0.1476  0.0230    32.10   7.79   2.24
+  93   76          0.00    13  13   3   0.2354  0.1678  0.0205     8.43   8.85   1.99
+  94   77          0.00    18  16   3   0.3208  0.1983  0.0215    11.49  10.46   2.10
+  95   78          0.00    13  26   3   0.2394  0.3299  0.0191     8.57  17.40   1.86
+  96   79          0.00    31  26   3   0.5542  0.3240  0.0200    19.85  17.10   1.95
+  97   80          0.00    31  30   3   0.5518  0.3758  0.0189    19.76  19.83   1.84
+  98   81          0.00    14  34   3   0.2497  0.4226  0.0185     8.94  22.30   1.80
+  99   82          0.00    28  35   3   0.5009  0.4315  0.0223    17.94  22.77   2.17
+ 100   83          0.00     7  38   3   0.1191  0.4711  0.0222     4.26  24.86   2.16
+ 101   84          0.00    43  41   3   0.7653  0.5085  0.0205    27.41  26.83   2.00
+ 102   85          0.00    50  45   3   0.8924  0.5643  0.0214    31.96  29.78   2.08
+ 103   86          0.00    46  52   3   0.8205  0.6453  0.0233    29.39  34.05   2.27
+ 104   87          0.00     5  53   3   0.0924  0.6586  0.0224     3.31  34.75   2.18
+ 105   88          0.00    37  53   3   0.6656  0.6603  0.0199    23.84  34.84   1.94
+ 106   89          0.00     0  54   3   0.0000  0.6735  0.0208     0.00  35.54   2.03
+ 107   89          0.00    55  54   3   0.9821  0.6749  0.0220    35.17  35.61   2.14
+ 108   90          0.00    55  59   3   0.9821  0.7372  0.0211    35.17  38.90   2.06
+ 109   91          0.00    11  60   3   0.1941  0.7476  0.0183     6.95  39.44   1.78
+ 110   92          0.00    26  60   3   0.4709  0.7452  0.0238    16.87  39.32   2.32
+ 111   93          0.00    50  61   3   0.8975  0.7580  0.0203    32.14  39.99   1.98
+ 112   94          0.00    26  66   3   0.4644  0.8194  0.0235    16.63  43.23   2.29
+ 113   95          0.00    30  67   3   0.5320  0.8338  0.0178    19.05  43.99   1.73
+ 114   96          0.00    41  71   3   0.7235  0.8924  0.0207    25.91  47.09   2.01
+ 115   97          0.01     6  75   3   0.1081  0.9414  0.0215     3.87  49.67   2.10
+ 116   98          0.00    10  77   3   0.1847  0.9638  0.0176     6.62  50.85   1.72
+ 117   99          0.00    50  79   3   0.8926  0.9875  0.0191    31.97  52.10   1.86
+ 118  100          0.00     8   0   4   0.1371  0.0000  0.0268     4.91   0.00   2.61
+ 119  101          0.00    25   6   4   0.4387  0.0695  0.0277    15.71   3.67   2.70
+ 120  102          0.00    47   9   4   0.8395  0.1100  0.0280    30.06   5.80   2.73
+ 121  103          0.00     8  11   4   0.1465  0.1372  0.0295     5.25   7.24   2.87
+ 122  104          0.00    40  18   4   0.7171  0.2229  0.0263    25.68  11.76   2.56
+ 123  105          0.00    47  21   4   0.8442  0.2630  0.0287    30.23  13.87   2.80
+ 124  106          0.00    43  27   4   0.7716  0.3394  0.0312    27.63  17.91   3.03
+ 125  107          0.00    51  29   4   0.9105  0.3622  0.0285    32.61  19.11   2.77
+ 126  108          0.00    11  31   4   0.1957  0.3824  0.0247     7.01  20.17   2.41
+ 127  109          0.00    20  33   4   0.3551  0.4155  0.0300    12.72  21.92   2.92
+ 128  110          0.00    18  41   4   0.3134  0.5071  0.0266    11.22  26.76   2.59
+ 129  111          0.00    50  41   4   0.8940  0.5103  0.0271    32.02  26.92   2.64
+ 130  112          0.00    36  43   4   0.6493  0.5398  0.0307    23.26  28.48   2.99
+ 131  113          0.00    40  43   4   0.7180  0.5396  0.0282    25.72  28.47   2.74
+ 132  114          0.00     4  44   4   0.0669  0.5515  0.0249     2.40  29.10   2.43
+ 133  115          0.00    32  46   4   0.5663  0.5754  0.0305    20.28  30.36   2.97
+ 134  116          0.00    48  48   4   0.8572  0.6041  0.0267    30.70  31.87   2.60
+ 135  117          0.00    55  50   4   0.9821  0.6271  0.0287    35.17  33.09   2.80
+ 136  118          0.00    18  56   4   0.3132  0.7056  0.0283    11.22  37.23   2.76
+ 137  119          0.00    43  56   4   0.7755  0.7010  0.0282    27.77  36.98   2.75
+ 138  120          0.00    52  63   4   0.9338  0.7858  0.0259    33.44  41.46   2.52
+ 139  121          0.00     2  67   4   0.0393  0.8424  0.0257     1.41  44.45   2.50
+ 140  122          0.00    37  68   4   0.6590  0.8549  0.0254    23.60  45.11   2.47
+ 141  123          0.00     3  71   4   0.0542  0.8855  0.0266     1.94  46.72   2.60
+ 142  124          0.00    47  73   4   0.8392  0.9106  0.0301    30.06  48.04   2.93
+ 143  125          0.00    32  74   4   0.5715  0.9267  0.0277    20.47  48.89   2.70
+ 144  126          0.00     1  75   4   0.0214  0.9404  0.0244     0.77  49.62   2.38
+ 145  100          0.00     7  79   4   0.1323  0.9875  0.0258     4.74  52.10   2.52
+ 146  127          0.00    32   0   5   0.5657  0.0000  0.0332    20.26   0.00   3.23
+ 147  128          0.00    47   0   5   0.8343  0.0000  0.0371    29.88   0.00   3.61
+ 148  129          0.00    55   0   5   0.9821  0.0000  0.0375    35.17   0.00   3.65
+ 149  130          0.00     6   4   5   0.1035  0.0517  0.0344     3.71   2.73   3.35
+ 150  131          0.00    54   5   5   0.9670  0.0602  0.0349    34.63   3.18   3.40
+ 151  132          0.00    31   7   5   0.5619  0.0881  0.0347    20.12   4.65   3.38
+ 152  133          0.00    17   8   5   0.3003  0.0985  0.0329    10.75   5.20   3.20
+ 153  134          0.01    21   9   5   0.3759  0.1120  0.0347    13.46   5.91   3.38
+ 154  135          0.00     2  12   5   0.0322  0.1485  0.0343     1.15   7.83   3.34
+ 155  136          0.00    27  14   5   0.4812  0.1771  0.0378    17.23   9.35   3.69
+ 156  137          0.00     0  21   5   0.0000  0.2676  0.0353     0.00  14.12   3.44
+ 157  138          0.00    22  22   5   0.3867  0.2771  0.0336    13.85  14.62   3.27
+ 158  139          0.00     3  27   5   0.0568  0.3371  0.0321     2.03  17.78   3.13
+ 159  140          0.00     4  32   5   0.0711  0.4006  0.0342     2.55  21.14   3.33
+ 160  141          0.00    31  33   5   0.5501  0.4103  0.0360    19.70  21.65   3.51
+ 161  142          0.00    11  35   5   0.1972  0.4410  0.0375     7.06  23.27   3.65
+ 162  143          0.00    50  37   5   0.8914  0.4657  0.0329    31.92  24.57   3.21
+ 163  144          0.00    34  38   5   0.6053  0.4803  0.0336    21.68  25.34   3.27
+ 164  145          0.00    10  40   5   0.1762  0.5029  0.0314     6.31  26.53   3.06
+ 165  146          0.00    29  44   5   0.5253  0.5456  0.0337    18.81  28.79   3.28
+ 166  147          0.00    49  53   5   0.8775  0.6636  0.0324    31.43  35.01   3.15
+ 167  148          0.00    33  54   5   0.5815  0.6807  0.0314    20.82  35.92   3.06
+ 168  149          0.00    24  62   5   0.4227  0.7751  0.0350    15.14  40.90   3.41
+ 169  150          0.01    19  63   5   0.3320  0.7858  0.0345    11.89  41.46   3.36
+ 170  151          0.00     6  66   5   0.1156  0.8219  0.0342     4.14  43.36   3.33
+ 171  152          0.00    37  71   5   0.6579  0.8876  0.0373    23.56  46.83   3.63
+ 172  153          0.00    24  77   5   0.4317  0.9576  0.0361    15.46  50.52   3.52
+ 173  129          0.00    55  79   5   0.9821  0.9875  0.0365    35.17  52.10   3.56
+ 174  154          0.00    40   0   6   0.7075  0.0000  0.0385    25.34   0.00   3.75
+ 175  155          0.01    18   1   6   0.3285  0.0133  0.0416    11.76   0.70   4.06
+ 176  156          0.00    46   3   6   0.8243  0.0361  0.0437    29.52   1.91   4.26
+ 177  157          0.00     2   5   6   0.0369  0.0575  0.0434     1.32   3.03   4.23
+ 178  158          0.00    14  11   6   0.2425  0.1370  0.0406     8.68   7.23   3.95
+ 179  159          0.00    20  14   6   0.3542  0.1789  0.0423    12.68   9.44   4.12
+ 180  160          0.00    32  14   6   0.5750  0.1739  0.0448    20.59   9.18   4.36
+ 181  161          0.00     7  17   6   0.1231  0.2082  0.0382     4.41  10.99   3.73
+ 182  162          0.00     5  21   6   0.0928  0.2596  0.0408     3.32  13.70   3.97
+ 183  163          0.00    20  22   6   0.3581  0.2750  0.0442    12.82  14.51   4.30
+ 184  164          0.00    43  24   6   0.7698  0.2997  0.0422    27.57  15.81   4.11
+ 185  165          0.00    48  25   6   0.8488  0.3073  0.0427    30.40  16.21   4.15
+ 186  166          0.00    35  34   6   0.6297  0.4282  0.0394    22.55  22.60   3.84
+ 187  167          0.00    54  35   6   0.9601  0.4355  0.0394    34.38  22.98   3.84
+ 188  168          0.00    46  38   6   0.8216  0.4739  0.0419    29.43  25.00   4.08
+ 189  169          0.00    41  39   6   0.7387  0.4878  0.0429    26.46  25.74   4.18
+ 190  170          0.00    26  40   6   0.4653  0.5008  0.0392    16.66  26.42   3.82
+ 191  171          0.00    44  41   6   0.7883  0.5090  0.0392    28.23  26.86   3.82
+ 192  172          0.00     8  45   6   0.1455  0.5684  0.0414     5.21  29.99   4.03
+ 193  173          0.00    38  47   6   0.6847  0.5885  0.0427    24.52  31.05   4.16
+ 194  174          0.00    35  54   6   0.6208  0.6781  0.0416    22.23  35.78   4.05
+ 195  175          0.00    13  55   6   0.2315  0.6833  0.0385     8.29  36.05   3.75
+ 196  176          0.00    30  58   6   0.5393  0.7296  0.0382    19.32  38.49   3.72
+ 197  177          0.00    32  64   6   0.5696  0.7987  0.0445    20.40  42.14   4.33
+ 198  178          0.00    49  64   6   0.8785  0.8030  0.0420    31.46  42.37   4.09
+ 199  179          0.00    11  67   6   0.2021  0.8394  0.0404     7.24  44.29   3.93
+ 200  180          0.00    47  69   6   0.8403  0.8635  0.0408    30.10  45.56   3.97
+ 201  181          0.00     8  71   6   0.1423  0.8885  0.0403     5.10  46.88   3.92
+ 202  182          0.00    13  71   6   0.2255  0.8931  0.0409     8.08  47.12   3.98
+ 203  183          0.00    53  71   6   0.9454  0.8878  0.0395    33.86  46.84   3.85
+ 204  184          0.00    17  73   6   0.3042  0.9144  0.0404    10.90  48.25   3.93
+ 205  185          0.00     9  74   6   0.1666  0.9264  0.0403     5.97  48.88   3.92
+ 206  186          0.01    19  77   6   0.3383  0.9613  0.0451    12.12  50.72   4.39
+ 207  187          0.00    29  77   6   0.5176  0.9628  0.0423    18.54  50.80   4.12
+ 208  188          0.00    43  77   6   0.7631  0.9637  0.0421    27.33  50.85   4.10
+ 209  189          0.00     0  78   6   0.0000  0.9792  0.0393     0.00  51.66   3.82
+ 210  128          0.00    46  79   6   0.8275  0.9875  0.0382    29.64  52.10   3.72
+ 211  190          0.00     6   1   7   0.1056  0.0153  0.0506     3.78   0.81   4.93
+ 212  191          0.00    36   2   7   0.6370  0.0235  0.0493    22.81   1.24   4.80
+ 213  192          0.00    36   8   7   0.6488  0.1016  0.0469    23.24   5.36   4.57
+ 214  193          0.00    52   9   7   0.9363  0.1118  0.0458    33.53   5.90   4.46
+ 215  194          0.00    24  19   7   0.4287  0.2356  0.0484    15.35  12.43   4.72
+ 216  195          0.00    38  19   7   0.6746  0.2356  0.0460    24.16  12.43   4.48
+ 217  196          0.00    52  22   7   0.9291  0.2760  0.0483    33.28  14.56   4.71
+ 218  197          0.00    39  33   7   0.7037  0.4137  0.0478    25.20  21.83   4.66
+ 219  198          0.00     4  36   7   0.0701  0.4495  0.0512     2.51  23.72   4.99
+ 220  199          0.00    20  39   7   0.3549  0.4866  0.0490    12.71  25.67   4.78
+ 221  200          0.00    19  43   7   0.3443  0.5379  0.0487    12.33  28.38   4.74
+ 222  201          0.00    52  46   7   0.9294  0.5740  0.0467    33.29  30.29   4.55
+ 223  202          0.00    27  47   7   0.4820  0.5820  0.0471    17.26  30.71   4.58
+ 224  203          0.00    43  48   7   0.7670  0.6014  0.0510    27.47  31.73   4.97
+ 225  204          0.00    38  50   7   0.6848  0.6191  0.0461    24.52  32.67   4.49
+ 226  205          0.00    21  54   7   0.3757  0.6789  0.0503    13.45  35.82   4.90
+ 227  206          0.00    12  61   7   0.2168  0.7628  0.0484     7.76  40.25   4.72
+ 228  207          0.00    18  67   7   0.3299  0.8361  0.0489    11.81  44.11   4.76
+ 229  208          0.00    40  70   7   0.7155  0.8728  0.0470    25.62  46.05   4.58
+ 230  209          0.00    15  77   7   0.2641  0.9632  0.0470     9.46  50.82   4.58
+ 231  210          0.00    44   0   8   0.7809  0.0000  0.0589    27.97   0.00   5.74
+ 232  211          0.00    44   2   8   0.7769  0.0241  0.0542    27.82   1.27   5.28
+ 233  212          0.00     7   4   8   0.1290  0.0561  0.0551     4.62   2.96   5.36
+ 234  213          0.00    12   4   8   0.2160  0.0443  0.0588     7.73   2.34   5.72
+ 235  214          0.00    15   4   8   0.2685  0.0452  0.0553     9.62   2.38   5.38
+ 236  215          0.01    24   6   8   0.4234  0.0720  0.0558    15.16   3.80   5.44
+ 237  216          0.00    12   7   8   0.2210  0.0896  0.0541     7.91   4.72   5.27
+ 238  217          0.00    41   8   8   0.7287  0.1041  0.0579    26.10   5.49   5.64
+ 239  218          0.00    18  11   8   0.3138  0.1350  0.0533    11.24   7.12   5.19
+ 240  219          0.00    36  16   8   0.6513  0.2030  0.0560    23.33  10.71   5.45
+ 241  220          0.00    18  19   8   0.3159  0.2345  0.0578    11.31  12.38   5.63
+ 242  221          0.00     5  26   8   0.0958  0.3280  0.0566     3.43  17.31   5.51
+ 243  222          0.00    35  27   8   0.6251  0.3381  0.0553    22.39  17.84   5.39
+ 244  223          0.00    31  30   8   0.5496  0.3707  0.0538    19.69  19.56   5.24
+ 245  224          0.00    47  30   8   0.8455  0.3777  0.0542    30.28  19.93   5.28
+ 246  225          0.00     6  32   8   0.1028  0.3939  0.0553     3.68  20.78   5.39
+ 247  226          0.00    49  33   8   0.8776  0.4166  0.0556    31.43  21.98   5.42
+ 248  227          0.00    28  37   8   0.4922  0.4649  0.0563    17.63  24.53   5.48
+ 249  228          0.00    50  40   8   0.8938  0.5024  0.0547    32.01  26.51   5.33
+ 250  229          0.00    17  46   8   0.3076  0.5759  0.0550    11.01  30.38   5.35
+ 251  230          0.00    13  48   8   0.2284  0.5942  0.0563     8.18  31.35   5.49
+ 252  231          0.00    20  50   8   0.3616  0.6198  0.0541    12.95  32.70   5.27
+ 253  232          0.00    31  51   8   0.5554  0.6366  0.0578    19.89  33.59   5.63
+ 254  233          0.00    48  53   8   0.8593  0.6586  0.0550    30.77  34.75   5.36
+ 255  234          0.00    31  55   8   0.5513  0.6931  0.0526    19.75  36.57   5.12
+ 256  235          0.00    33  60   8   0.5844  0.7491  0.0584    20.93  39.52   5.69
+ 257  236          0.00    35  64   8   0.6334  0.8005  0.0564    22.68  42.24   5.49
+ 258  237          0.00    36  69   8   0.6347  0.8583  0.0554    22.73  45.29   5.40
+ 259  210          0.00    44  79   8   0.7850  0.9875  0.0588    28.11  52.10   5.73
+ 260  238          0.01    30   1   9   0.5304  0.0123  0.0633    19.00   0.65   6.16
+ 261  239          0.00    49   1   9   0.8712  0.0143  0.0613    31.20   0.75   5.97
+ 262  240          0.00    20   2   9   0.3639  0.0264  0.0611    13.03   1.39   5.95
+ 263  241          0.00     0   5   9   0.0000  0.0623  0.0618     0.00   3.29   6.02
+ 264  242          0.05    19   6   9   0.3404  0.0776  0.0602    12.19   4.10   5.86
+ 265  243          0.00    29   8   9   0.5107  0.1023  0.0621    18.29   5.40   6.05
+ 266  244          0.00     8  10   9   0.1478  0.1253  0.0652     5.29   6.61   6.35
+ 267  245          0.00    29  12   9   0.5212  0.1545  0.0653    18.67   8.15   6.36
+ 268  246          0.00    36  12   9   0.6340  0.1547  0.0635    22.71   8.16   6.19
+ 269  247          0.00    13  13   9   0.2338  0.1605  0.0596     8.37   8.47   5.81
+ 270  248          0.00     3  15   9   0.0499  0.1904  0.0595     1.79  10.04   5.79
+ 271  249          0.00    10  18   9   0.1807  0.2272  0.0594     6.47  11.99   5.79
+ 272  250          0.00    29  33   9   0.5144  0.4134  0.0636    18.42  21.81   6.19
+ 273  251          0.00    11  34   9   0.1905  0.4299  0.0610     6.82  22.68   5.94
+ 274  252          0.00    51  36   9   0.9078  0.4535  0.0641    32.51  23.93   6.25
+ 275  253          0.00    20  37   9   0.3567  0.4636  0.0649    12.78  24.46   6.32
+ 276  254          0.00    10  39   9   0.1836  0.4834  0.0608     6.57  25.51   5.92
+ 277  255          0.00     9  46   9   0.1521  0.5735  0.0646     5.45  30.26   6.29
+ 278  256          0.00    39  46   9   0.6978  0.5806  0.0602    24.99  30.63   5.86
+ 279  257          0.00    36  51   9   0.6394  0.6431  0.0626    22.90  33.93   6.10
+ 280  258          0.00     6  53   9   0.1135  0.6592  0.0636     4.07  34.78   6.19
+ 281  259          0.00    16  60   9   0.2916  0.7544  0.0608    10.44  39.81   5.92
+ 282  260          0.00    10  64   9   0.1724  0.8025  0.0630     6.17  42.34   6.14
+ 283  261          0.00    39  64   9   0.6941  0.8022  0.0626    24.86  42.33   6.10
+ 284  262          0.00    22  69   9   0.3957  0.8674  0.0622    14.17  45.77   6.06
+ 285  263          0.00    25  73   9   0.4483  0.9167  0.0601    16.06  48.36   5.85
+ 286  264          0.00    54  73   9   0.9660  0.9143  0.0627    34.60  48.24   6.11
+ 287  265          0.00    13  74   9   0.2335  0.9202  0.0616     8.36  48.55   6.00
+ 288  266          0.00    46  76   9   0.8289  0.9525  0.0620    29.69  50.25   6.03
+ 289  267          0.00     6  77   9   0.0988  0.9586  0.0640     3.54  50.58   6.23
+ 290  268          0.00    11  78   9   0.2016  0.9711  0.0625     7.22  51.24   6.09
+ 291  269          0.00    26  78   9   0.4670  0.9807  0.0632    16.73  51.75   6.16
+ 292  270          0.00     3   5  10   0.0544  0.0685  0.0713     1.95   3.61   6.95
+ 293  271          0.00    54   5  10   0.9595  0.0617  0.0665    34.37   3.26   6.48
+ 294  272          0.00    14   7  10   0.2567  0.0867  0.0661     9.19   4.58   6.44
+ 295  273          0.00    17  14  10   0.3020  0.1787  0.0694    10.81   9.43   6.76
+ 296  274          0.00    48  14  10   0.8596  0.1706  0.0713    30.79   9.00   6.94
+ 297  275          0.00     8  16  10   0.1358  0.2019  0.0714     4.86  10.65   6.95
+ 298  276          0.00    34  18  10   0.6119  0.2288  0.0721    21.91  12.07   7.03
+ 299  277          0.00    47  22  10   0.8394  0.2731  0.0726    30.06  14.41   7.07
+ 300  278          0.00    42  26  10   0.7491  0.3291  0.0688    26.83  17.36   6.70
+ 301  279          0.00     9  29  10   0.1629  0.3625  0.0720     5.84  19.12   7.01
+ 302  280          0.00    18  31  10   0.3267  0.3868  0.0688    11.70  20.41   6.70
+ 303  281          0.00     8  36  10   0.1353  0.4531  0.0706     4.85  23.91   6.88
+ 304  282          0.00    26  39  10   0.4563  0.4844  0.0676    16.34  25.56   6.58
+ 305  283          0.00    44  45  10   0.7794  0.5595  0.0681    27.91  29.52   6.63
+ 306  284          0.00    46  46  10   0.8267  0.5748  0.0705    29.61  30.33   6.86
+ 307  285          0.00    11  53  10   0.2000  0.6681  0.0697     7.16  35.25   6.79
+ 308  286          0.00    36  57  10   0.6511  0.7105  0.0689    23.32  37.49   6.71
+ 309  287          0.00    12  63  10   0.2211  0.7889  0.0692     7.92  41.62   6.74
+ 310  288          0.00    48  68  10   0.8558  0.8460  0.0713    30.65  44.64   6.95
+ 311  289          0.00    32  70  10   0.5721  0.8736  0.0676    20.49  46.09   6.59
+ 312  290          0.00    21  73  10   0.3739  0.9164  0.0699    13.39  48.35   6.81
+ 313  291          0.00    49  73  10   0.8730  0.9114  0.0679    31.27  48.09   6.62
+ 314  292          0.00    38  78  10   0.6812  0.9738  0.0695    24.40  51.38   6.76
+ 315  293          0.00    44   3  11   0.7874  0.0333  0.0758    28.20   1.76   7.38
+ 316  294          0.00    43   5  11   0.7735  0.0679  0.0773    27.70   3.58   7.53
+ 317  295          0.01    25  12  11   0.4429  0.1467  0.0765    15.86   7.74   7.45
+ 318  296          0.00     5  13  11   0.0815  0.1670  0.0746     2.92   8.81   7.26
+ 319  297          0.00     1  17  11   0.0220  0.2166  0.0767     0.79  11.43   7.47
+ 320  298          0.00    19  18  11   0.3420  0.2196  0.0777    12.25  11.59   7.57
+ 321  299          0.00     7  21  11   0.1274  0.2621  0.0775     4.56  13.83   7.55
+ 322  300          0.00    54  21  11   0.9595  0.2603  0.0784    34.36  13.74   7.64
+ 323  301          0.00    31  23  11   0.5564  0.2864  0.0771    19.93  15.11   7.50
+ 324  302          0.00    44  24  11   0.7808  0.2948  0.0773    27.97  15.56   7.53
+ 325  303          0.00    12  26  11   0.2117  0.3246  0.0767     7.58  17.13   7.47
+ 326  304          0.00    29  27  11   0.5246  0.3344  0.0747    18.79  17.64   7.28
+ 327  305          0.00    14  31  11   0.2499  0.3894  0.0744     8.95  20.55   7.25
+ 328  306          0.00     1  36  11   0.0243  0.4540  0.0740     0.87  23.95   7.20
+ 329  307          0.00    44  49  11   0.7832  0.6140  0.0781    28.05  32.40   7.61
+ 330  308          0.00    10  50  11   0.1787  0.6308  0.0734     6.40  33.28   7.15
+ 331  309          0.00    50  50  11   0.8971  0.6282  0.0735    32.13  33.14   7.16
+ 332  310          0.00    22  52  11   0.3901  0.6509  0.0771    13.97  34.34   7.51
+ 333  311          0.00    54  52  11   0.9621  0.6492  0.0773    34.46  34.25   7.53
+ 334  312          0.00    53  55  11   0.9429  0.6918  0.0732    33.77  36.50   7.13
+ 335  313          0.00    25  59  11   0.4435  0.7333  0.0778    15.88  38.69   7.57
+ 336  314          0.00    50  61  11   0.8866  0.7642  0.0773    31.75  40.32   7.53
+ 337  315          0.00    26  62  11   0.4653  0.7784  0.0792    16.66  41.07   7.71
+ 338  316          0.00    19  67  11   0.3393  0.8420  0.0764    12.15  44.43   7.44
+ 339  317          0.00    39  67  11   0.6987  0.8334  0.0747    25.02  43.97   7.28
+ 340  318          0.00     0  68  11   0.0000  0.8490  0.0792     0.00  44.79   7.71
+ 341  319          0.00     6  72  11   0.1088  0.8968  0.0755     3.90  47.32   7.35
+ 342  320          0.00    44  72  11   0.7842  0.8983  0.0770    28.09  47.40   7.50
+ 343  321          0.00     1  75  11   0.0235  0.9364  0.0767     0.84  49.41   7.47
+ 344  322          0.00    31  77  11   0.5596  0.9596  0.0743    20.04  50.63   7.24
+ 345  323          0.00    41   0  12   0.7350  0.0000  0.0821    26.32   0.00   7.99
+ 346  324          0.00     9   3  12   0.1593  0.0390  0.0831     5.70   2.06   8.09
+ 347  325          0.00    13   3  12   0.2264  0.0348  0.0832     8.11   1.84   8.11
+ 348  326          0.00    49   3  12   0.8796  0.0417  0.0810    31.50   2.20   7.89
+ 349  327          0.00    17   4  12   0.2985  0.0495  0.0837    10.69   2.61   8.16
+ 350  328          0.00    29   5  12   0.5108  0.0664  0.0845    18.30   3.51   8.23
+ 351  329          0.00    22   8  12   0.3990  0.0959  0.0820    14.29   5.06   7.99
+ 352  330          0.00    12  10  12   0.2091  0.1255  0.0819     7.49   6.62   7.98
+ 353  331          0.00    12  13  12   0.2134  0.1605  0.0857     7.64   8.47   8.35
+ 354  332          0.00    20  13  12   0.3528  0.1597  0.0801    12.64   8.42   7.80
+ 355  333          0.00    11  17  12   0.1962  0.2096  0.0803     7.03  11.06   7.83
+ 356  334          0.00     4  19  12   0.0695  0.2388  0.0849     2.49  12.60   8.27
+ 357  335          0.00    21  21  12   0.3716  0.2678  0.0859    13.31  14.13   8.37
+ 358  336          0.00     8  25  12   0.1466  0.3160  0.0841     5.25  16.67   8.20
+ 359  337          0.00    23  25  12   0.4159  0.3091  0.0837    14.89  16.31   8.15
+ 360  338          0.00     3  26  12   0.0515  0.3291  0.0813     1.84  17.36   7.92
+ 361  339          0.00    34  26  12   0.6095  0.3194  0.0814    21.83  16.85   7.93
+ 362  340          0.00    39  28  12   0.6897  0.3530  0.0804    24.70  18.63   7.83
+ 363  341          0.00    46  29  12   0.8170  0.3628  0.0867    29.26  19.14   8.44
+ 364  342          0.00    35  30  12   0.6166  0.3804  0.0829    22.08  20.07   8.07
+ 365  342          0.00    35  32  12   0.6228  0.3945  0.0851    22.30  20.82   8.29
+ 366  343          0.00    37  37  12   0.6524  0.4644  0.0842    23.37  24.50   8.20
+ 367  344          0.00    34  38  12   0.6088  0.4796  0.0838    21.80  25.30   8.16
+ 368  345          0.00     9  41  12   0.1613  0.5108  0.0866     5.78  26.95   8.44
+ 369  346          0.00    19  41  12   0.3436  0.5132  0.0838    12.30  27.08   8.16
+ 370  347          0.00    44  41  12   0.7862  0.5129  0.0842    28.16  27.06   8.21
+ 371  348          0.00    16  48  12   0.2807  0.5981  0.0821    10.05  31.56   7.99
+ 372  349          0.00    18  51  12   0.3234  0.6379  0.0814    11.58  33.66   7.93
+ 373  350          0.00    47  51  12   0.8423  0.6429  0.0806    30.16  33.92   7.85
+ 374  351          0.00     3  52  12   0.0556  0.6448  0.0848     1.99  34.02   8.25
+ 375  352          0.00    42  52  12   0.7532  0.6500  0.0820    26.98  34.30   7.99
+ 376  353          0.00    30  60  12   0.5405  0.7519  0.0838    19.36  39.67   8.17
+ 377  354          0.00    46  64  12   0.8215  0.7977  0.0854    29.42  42.09   8.32
+ 378  355          0.00    14  67  12   0.2482  0.8351  0.0814     8.89  44.06   7.93
+ 379  356          0.00     5  68  12   0.0946  0.8457  0.0855     3.39  44.62   8.33
+ 380  357          0.00    35  73  12   0.6251  0.9145  0.0820    22.39  48.25   7.99
+ 381  358          0.00    32  74  12   0.5680  0.9251  0.0799    20.34  48.81   7.79
+ 382  359          0.00    14  76  12   0.2495  0.9453  0.0862     8.94  49.87   8.39
+ 383  360          0.00    18  76  12   0.3297  0.9531  0.0855    11.81  50.29   8.33
+ 384  361          0.00     4  78  12   0.0691  0.9739  0.0848     2.48  51.38   8.26
+ 385  362          0.00    41  78  12   0.7368  0.9807  0.0854    26.39  51.74   8.31
+ 386  363          0.00    45  78  12   0.7987  0.9736  0.0827    28.60  51.37   8.05
+ 387  364          0.00    19   4  13   0.3398  0.0549  0.0919    12.17   2.90   8.95
+ 388  365          0.00    33   4  13   0.5812  0.0534  0.0901    20.82   2.82   8.78
+ 389  366          0.00    35  13  13   0.6218  0.1591  0.0913    22.27   8.39   8.89
+ 390  367          0.00    51  16  13   0.9149  0.1940  0.0897    32.77  10.23   8.74
+ 391  368          0.00    12  22  13   0.2109  0.2764  0.0905     7.55  14.58   8.81
+ 392  369          0.00    39  32  13   0.6938  0.4011  0.0892    24.85  21.16   8.68
+ 393  370          0.00     1  33  13   0.0130  0.4074  0.0879     0.47  21.49   8.56
+ 394  371          0.00    30  34  13   0.5405  0.4312  0.0902    19.36  22.75   8.78
+ 395  372          0.00    14  35  13   0.2452  0.4381  0.0877     8.78  23.11   8.54
+ 396  373          0.00    48  39  13   0.8580  0.4928  0.0927    30.73  26.00   9.03
+ 397  374          0.00     7  44  13   0.1295  0.5530  0.0918     4.64  29.18   8.95
+ 398  375          0.00    20  45  13   0.3595  0.5641  0.0936    12.88  29.76   9.12
+ 399  376          0.00    35  45  13   0.6222  0.5609  0.0913    22.28  29.59   8.89
+ 400  377          0.01    31  47  13   0.5491  0.5906  0.0915    19.66  31.16   8.91
+ 401  378          0.00    43  56  13   0.7709  0.7020  0.0910    27.61  37.04   8.86
+ 402  379          0.00     0  57  13   0.0000  0.7152  0.0900     0.00  37.74   8.77
+ 403  380          0.00    49  57  13   0.8761  0.7175  0.0932    31.38  37.85   9.08
+ 404  381          0.00     9  59  13   0.1650  0.7340  0.0916     5.91  38.73   8.93
+ 405  382          0.00    17  59  13   0.3058  0.7355  0.0913    10.95  38.81   8.89
+ 406  383          0.00    33  64  13   0.5965  0.7990  0.0874    21.36  42.16   8.52
+ 407  384          0.00    10  70  13   0.1830  0.8779  0.0935     6.56  46.32   9.10
+ 408  385          0.00    18  71  13   0.3252  0.8820  0.0906    11.65  46.53   8.82
+ 409  386          0.00    49  71  13   0.8739  0.8896  0.0909    31.30  46.94   8.85
+ 410  387          0.00     6  75  13   0.1079  0.9368  0.0884     3.86  49.43   8.61
+ 411  388          0.00    22  77  13   0.3987  0.9645  0.0898    14.28  50.89   8.74
+ 412  389          0.00    15   6  14   0.2655  0.0723  0.1005     9.51   3.81   9.78
+ 413  390          0.00    31   8  14   0.5622  0.1006  0.0995    20.14   5.31   9.69
+ 414  391          0.00    18   9  14   0.3231  0.1136  0.0981    11.57   5.99   9.55
+ 415  392          0.00    17  15  14   0.3065  0.1900  0.0960    10.98  10.02   9.35
+ 416  393          0.00    21  15  14   0.3739  0.1870  0.0956    13.39   9.87   9.31
+ 417  394          0.00    24  27  14   0.4279  0.3383  0.0982    15.32  17.85   9.56
+ 418  395          0.00     1  31  14   0.0226  0.3855  0.1003     0.81  20.34   9.77
+ 419  396          0.00    37  32  14   0.6636  0.3980  0.1001    23.77  21.00   9.75
+ 420  397          0.00    18  33  14   0.3180  0.4078  0.0938    11.39  21.52   9.13
+ 421  398          0.00    26  33  14   0.4665  0.4117  0.0974    16.71  21.72   9.49
+ 422  399          0.00    26  39  14   0.4682  0.4879  0.0985    16.77  25.74   9.60
+ 423  400          0.00    37  42  14   0.6624  0.5240  0.0964    23.72  27.65   9.39
+ 424  401          0.00    27  44  14   0.4825  0.5527  0.0999    17.28  29.16   9.73
+ 425  402          0.00     0  46  14   0.0000  0.5743  0.0978     0.00  30.30   9.53
+ 426  403          0.00    24  47  14   0.4338  0.5826  0.0971    15.54  30.74   9.45
+ 427  404          0.00     8  48  14   0.1404  0.6037  0.0959     5.03  31.85   9.34
+ 428  405          0.00     0  50  14   0.0000  0.6253  0.0991     0.00  32.99   9.66
+ 429  406          0.00    15  51  14   0.2639  0.6432  0.0960     9.45  33.94   9.35
+ 430  407          0.00    30  54  14   0.5427  0.6742  0.0946    19.44  35.57   9.22
+ 431  408          0.00     4  55  14   0.0668  0.6860  0.1005     2.39  36.19   9.79
+ 432  409          0.00     7  55  14   0.1191  0.6891  0.0969     4.26  36.36   9.44
+ 433  410          0.00    20  57  14   0.3559  0.7148  0.0996    12.74  37.71   9.71
+ 434  411          0.00     5  59  14   0.0852  0.7388  0.0987     3.05  38.98   9.62
+ 435  412          0.00    17  63  14   0.3111  0.7884  0.0963    11.14  41.60   9.38
+ 436  413          0.00    19  67  14   0.3437  0.8350  0.0986    12.31  44.06   9.60
+ 437  414          0.00    32  68  14   0.5739  0.8441  0.0974    20.55  44.54   9.49
+ 438  415          0.00    44  69  14   0.7898  0.8622  0.0987    28.29  45.49   9.61
+ 439  416          0.00    21  71  14   0.3666  0.8865  0.0959    13.13  46.77   9.34
+ 440  417          0.00    24  72  14   0.4308  0.9010  0.0950    15.43  47.54   9.25
+ 441  418          0.00    38  74  14   0.6724  0.9262  0.0974    24.08  48.87   9.48
+ 442  419          0.00    47  75  14   0.8342  0.9344  0.0949    29.88  49.30   9.25
+ 443  420          0.00    49  79  14   0.8780  0.9875  0.0941    31.44  52.10   9.16
+ 444  421          0.00    24   4  15   0.4258  0.0522  0.1011    15.25   2.75   9.84
+ 445  422          0.00     0   8  15   0.0000  0.1054  0.1014     0.00   5.56   9.87
+ 446  422          0.00    55   8  15   0.9821  0.1033  0.1032    35.17   5.45  10.05
+ 447  423          0.00    21  19  15   0.3753  0.2433  0.1033    13.44  12.84  10.07
+ 448  424          0.00     7  21  15   0.1305  0.2659  0.1048     4.68  14.03  10.21
+ 449  425          0.00    29  21  15   0.5229  0.2646  0.1042    18.73  13.96  10.15
+ 450  426          0.00    53  21  15   0.9414  0.2644  0.1028    33.72  13.95  10.01
+ 451  427          0.00     4  22  15   0.0739  0.2755  0.1033     2.65  14.54  10.06
+ 452  428          0.00     9  24  15   0.1673  0.2996  0.1040     5.99  15.81  10.13
+ 453  429          0.00    45  24  15   0.8071  0.3033  0.1026    28.90  16.00  10.00
+ 454  430          0.00    30  27  15   0.5340  0.3383  0.1034    19.12  17.85  10.07
+ 455  431          0.00    13  31  15   0.2296  0.3885  0.1054     8.22  20.50  10.27
+ 456  432          0.00    23  33  15   0.4106  0.4066  0.1028    14.71  21.45  10.01
+ 457  433          0.00    16  37  15   0.2902  0.4669  0.1035    10.39  24.64  10.08
+ 458  434          0.00    43  46  15   0.7659  0.5732  0.1028    27.43  30.24  10.01
+ 459  435          0.00    17  47  15   0.3035  0.5889  0.1070    10.87  31.07  10.42
+ 460  436          0.00    27  48  15   0.4809  0.6046  0.1020    17.22  31.90   9.93
+ 461  437          0.00    37  48  15   0.6611  0.5981  0.1067    23.68  31.56  10.39
+ 462  438          0.00     3  49  15   0.0520  0.6118  0.1055     1.86  32.28  10.28
+ 463  439          0.00    11  54  15   0.1998  0.6761  0.1017     7.16  35.67   9.90
+ 464  440          0.00    22  54  15   0.3941  0.6752  0.1052    14.11  35.62  10.25
+ 465  441          0.00    36  56  15   0.6486  0.6968  0.1033    23.23  36.77  10.06
+ 466  442          0.00    21  64  15   0.3749  0.7979  0.1044    13.43  42.10  10.16
+ 467  443          0.00     7  72  15   0.1261  0.9037  0.1053     4.52  47.68  10.26
+ 468  444          0.00    22  74  15   0.3882  0.9264  0.1040    13.90  48.88  10.13
+ 469  445          0.00    26  76  15   0.4591  0.9500  0.1056    16.44  50.12  10.29
+ 470  446          0.00    33  76  15   0.5945  0.9467  0.1048    21.29  49.95  10.21
+ 471  447          0.00     0  78  15   0.0000  0.9688  0.1046     0.00  51.12  10.18
+ 472  448          0.00    45  78  15   0.8104  0.9766  0.1036    29.02  51.53  10.09
+ 473  449          0.00    53   0  16   0.9459  0.0000  0.1105    33.88   0.00  10.76
+ 474  450          0.00     8   5  16   0.1358  0.0621  0.1093     4.86   3.28  10.65
+ 475  451          0.00    42  10  16   0.7515  0.1205  0.1119    26.92   6.36  10.90
+ 476  452          0.00     1  12  16   0.0152  0.1486  0.1105     0.55   7.84  10.76
+ 477  453          0.00     8  17  16   0.1459  0.2100  0.1088     5.23  11.08  10.60
+ 478  454          0.00    44  17  16   0.7880  0.2084  0.1109    28.22  11.00  10.80
+ 479  455          0.00    11  19  16   0.1969  0.2408  0.1096     7.05  12.70  10.67
+ 480  456          0.00    26  19  16   0.4690  0.2378  0.1078    16.80  12.55  10.50
+ 481  457          0.00    32  19  16   0.5676  0.2432  0.1106    20.33  12.83  10.77
+ 482  458          0.00    20  23  16   0.3595  0.2880  0.1083    12.88  15.19  10.55
+ 483  459          0.00    52  25  16   0.9271  0.3136  0.1092    33.20  16.55  10.64
+ 484  460          0.00    17  29  16   0.2991  0.3614  0.1103    10.71  19.07  10.74
+ 485  461          0.00    49  29  16   0.8772  0.3574  0.1146    31.42  18.85  11.16
+ 486  462          0.00    21  39  16   0.3778  0.4891  0.1092    13.53  25.80  10.64
+ 487  463          0.00    14  42  16   0.2500  0.5297  0.1091     8.95  27.95  10.63
+ 488  464          0.00    52  44  16   0.9312  0.5458  0.1112    33.35  28.80  10.83
+ 489  465          0.00    20  51  16   0.3589  0.6320  0.1102    12.85  33.35  10.74
+ 490  466          0.00    36  51  16   0.6467  0.6315  0.1131    23.16  33.32  11.02
+ 491  467          0.00    49  53  16   0.8756  0.6598  0.1099    31.36  34.81  10.70
+ 492  468          0.00    28  54  16   0.4951  0.6719  0.1131    17.73  35.45  11.01
+ 493  469          0.00    15  55  16   0.2758  0.6897  0.1107     9.88  36.39  10.78
+ 494  470          0.00    13  58  16   0.2264  0.7285  0.1092     8.11  38.44  10.63
+ 495  471          0.00    34  59  16   0.6044  0.7335  0.1115    21.65  38.70  10.86
+ 496  472          0.00     8  60  16   0.1450  0.7456  0.1139     5.19  39.34  11.10
+ 497  473          0.00    53  67  16   0.9549  0.8400  0.1114    34.20  44.32  10.85
+ 498  474          0.00    18  71  16   0.3264  0.8919  0.1139    11.69  47.06  11.09
+ 499  475          0.00    27  72  16   0.4853  0.8971  0.1095    17.38  47.33  10.66
+ 500  476          0.00    41  74  16   0.7326  0.9211  0.1123    26.24  48.60  10.94
+ 501  477          0.00    40  78  16   0.7080  0.9721  0.1113    25.36  51.29  10.84
+ 502  478          0.00    16   3  17   0.2850  0.0334  0.1159    10.21   1.76  11.29
+ 503  479          0.00     0   5  17   0.0000  0.0608  0.1202     0.00   3.21  11.71
+ 504  479          0.00    55   5  17   0.9821  0.0612  0.1181    35.17   3.23  11.51
+ 505  480          0.00    52  11  17   0.9328  0.1372  0.1189    33.41   7.24  11.58
+ 506  481          0.00    24  12  17   0.4244  0.1499  0.1165    15.20   7.91  11.34
+ 507  482          0.00     9  13  17   0.1520  0.1651  0.1192     5.44   8.71  11.61
+ 508  483          0.00    16  13  17   0.2792  0.1635  0.1189    10.00   8.63  11.58
+ 509  484          0.00     2  14  17   0.0372  0.1801  0.1197     1.33   9.50  11.66
+ 510  485          0.00    34  16  17   0.6039  0.2013  0.1197    21.63  10.62  11.65
+ 511  486          0.00    50  18  17   0.8967  0.2245  0.1183    32.11  11.85  11.53
+ 512  487          0.00    15  19  17   0.2721  0.2355  0.1148     9.74  12.42  11.18
+ 513  488          0.00     0  21  17   0.0000  0.2596  0.1186     0.00  13.70  11.55
+ 514  489          0.00    36  23  17   0.6372  0.2829  0.1161    22.82  14.93  11.31
+ 515  490          0.00     0  25  17   0.0000  0.3123  0.1189     0.00  16.48  11.58
+ 516  490          0.00    55  25  17   0.9821  0.3132  0.1202    35.17  16.53  11.71
+ 517  491          0.00    40  26  17   0.7054  0.3238  0.1210    25.26  17.08  11.78
+ 518  492          0.00     9  30  17   0.1583  0.3751  0.1172     5.67  19.79  11.41
+ 519  493          0.00    11  34  17   0.1934  0.4304  0.1186     6.93  22.71  11.55
+ 520  494          0.00     6  35  17   0.1080  0.4373  0.1202     3.87  23.07  11.71
+ 521  495          0.00     8  40  17   0.1384  0.5029  0.1147     4.96  26.53  11.17
+ 522  496          0.00    19  42  17   0.3368  0.5241  0.1214    12.06  27.65  11.82
+ 523  497          0.00    32  44  17   0.5677  0.5494  0.1209    20.33  28.99  11.77
+ 524  498          0.00     6  46  17   0.0995  0.5780  0.1165     3.56  30.49  11.35
+ 525  499          0.00    49  46  17   0.8779  0.5800  0.1179    31.44  30.60  11.48
+ 526  500          0.00    55  47  17   0.9821  0.5895  0.1154    35.17  31.10  11.24
+ 527  501          0.00    14  49  17   0.2476  0.6092  0.1202     8.87  32.14  11.71
+ 528  502          0.00    40  49  17   0.7162  0.6109  0.1184    25.65  32.23  11.53
+ 529  503          0.00    43  51  17   0.7629  0.6373  0.1206    27.32  33.63  11.75
+ 530  504          0.00    23  59  17   0.4062  0.7354  0.1185    14.55  38.80  11.55
+ 531  505          0.00    19  60  17   0.3311  0.7510  0.1210    11.86  39.62  11.78
+ 532  506          0.00    54  61  17   0.9623  0.7630  0.1194    34.47  40.26  11.63
+ 533  507          0.00    42  63  17   0.7503  0.7918  0.1192    26.87  41.78  11.61
+ 534  508          0.00    34  66  17   0.6028  0.8197  0.1185    21.59  43.25  11.54
+ 535  509          0.00    50  67  17   0.8920  0.8370  0.1191    31.95  44.16  11.60
+ 536  510          0.00    30  75  17   0.5345  0.9346  0.1149    19.14  49.31  11.19
+ 537  511          0.00    32  78  17   0.5793  0.9792  0.1183    20.75  51.67  11.53
+ 538  512          0.00    41   0  18   0.7378  0.0000  0.1284    26.42   0.00  12.50
+ 539  513          0.00    26   1  18   0.4698  0.0137  0.1235    16.82   0.72  12.03
+ 540  514          0.00    31   2  18   0.5462  0.0224  0.1225    19.56   1.18  11.93
+ 541  515          0.00    20   3  18   0.3635  0.0391  0.1246    13.02   2.06  12.14
+ 542  516          0.00    12   9  18   0.2183  0.1162  0.1250     7.82   6.13  12.17
+ 543  517          0.00    38  14  18   0.6750  0.1738  0.1271    24.17   9.17  12.38
+ 544  518          0.00    19  16  18   0.3385  0.2021  0.1237    12.12  10.66  12.05
+ 545  519          0.00    17  20  18   0.3053  0.2538  0.1267    10.93  13.39  12.34
+ 546  520          0.00    23  25  18   0.4172  0.3104  0.1248    14.94  16.38  12.16
+ 547  521          0.00    12  40  18   0.2067  0.5005  0.1281     7.40  26.41  12.48
+ 548  522          0.00    45  43  18   0.7999  0.5359  0.1237    28.65  28.28  12.05
+ 549  523          0.03    10  48  18   0.1737  0.5941  0.1251     6.22  31.35  12.18
+ 550  524          0.00    33  48  18   0.5924  0.6009  0.1243    21.21  31.71  12.11
+ 551  525          0.00    12  52  18   0.2109  0.6439  0.1269     7.55  33.97  12.36
+ 552  526          0.00    16  52  18   0.2925  0.6524  0.1233    10.48  34.42  12.01
+ 553  527          0.00    30  59  18   0.5369  0.7393  0.1279    19.23  39.01  12.46
+ 554  528          0.00    26  60  18   0.4699  0.7479  0.1266    16.83  39.46  12.33
+ 555  529          0.00    38  65  18   0.6736  0.8093  0.1231    24.12  42.70  11.99
+ 556  530          0.00    14  72  18   0.2479  0.9001  0.1265     8.88  47.49  12.32
+ 557  531          0.00    36  75  18   0.6409  0.9384  0.1275    22.95  49.51  12.42
+ 558  532          0.00     0  77  18   0.0000  0.9623  0.1255     0.00  50.77  12.22
+ 559  533          0.00    12  78  18   0.2089  0.9773  0.1232     7.48  51.56  12.00
+ 560  534          0.00    32   9  19   0.5689  0.1170  0.1306    20.37   6.17  12.72
+ 561  535          0.00    36  10  19   0.6425  0.1220  0.1312    23.01   6.44  12.78
+ 562  536          0.00     5  11  19   0.0855  0.1393  0.1328     3.06   7.35  12.93
+ 563  537          0.00    47  11  19   0.8453  0.1358  0.1313    30.27   7.17  12.78
+ 564  538          0.00    33  13  19   0.5924  0.1636  0.1349    21.21   8.63  13.14
+ 565  539          0.00    46  15  19   0.8290  0.1936  0.1337    29.69  10.21  13.02
+ 566  518          0.00    20  18  19   0.3637  0.2207  0.1333    13.03  11.64  12.98
+ 567  540          0.00     7  23  19   0.1251  0.2906  0.1305     4.48  15.33  12.71
+ 568  541          0.00    18  38  19   0.3244  0.4773  0.1313    11.62  25.18  12.79
+ 569  542          0.00    48  39  19   0.8535  0.4862  0.1315    30.57  25.65  12.81
+ 570  543          0.00    35  40  19   0.6287  0.4980  0.1307    22.51  26.28  12.73
+ 571  544          0.00    54  41  19   0.9619  0.5089  0.1333    34.45  26.85  12.98
+ 572  545          0.00    37  47  19   0.6654  0.5855  0.1331    23.83  30.89  12.96
+ 573  546          0.00     2  49  19   0.0277  0.6167  0.1330     0.99  32.54  12.95
+ 574  547          0.00    29  49  19   0.5193  0.6101  0.1350    18.60  32.19  13.15
+ 575  548          0.00    24  53  19   0.4343  0.6624  0.1332    15.55  34.95  12.97
+ 576  549          0.00    30  68  19   0.5440  0.8513  0.1290    19.48  44.92  12.56
+ 577  550          0.00    38  72  19   0.6875  0.8988  0.1304    24.62  47.42  12.70
+ 578  551          0.00    46  78  19   0.8227  0.9732  0.1342    29.46  51.35  13.07
+ 579  552          0.00    35   0  20   0.6222  0.0000  0.1394    22.28   0.00  13.58
+ 580  553          0.00    13   2  20   0.2272  0.0281  0.1372     8.14   1.48  13.36
+ 581  554          0.00     1   3  20   0.0136  0.0339  0.1379     0.49   1.79  13.43
+ 582  555          0.00     8   9  20   0.1368  0.1084  0.1360     4.90   5.72  13.24
+ 583  556          0.00     0  12  20   0.0000  0.1468  0.1356     0.00   7.74  13.20
+ 584  557          0.00     2  13  20   0.0373  0.1685  0.1384     1.34   8.89  13.48
+ 585  558          0.00    16  13  20   0.2910  0.1662  0.1360    10.42   8.77  13.25
+ 586  559          0.00    29  14  20   0.5174  0.1756  0.1382    18.53   9.26  13.46
+ 587  560          0.04     6  16  20   0.1028  0.1992  0.1364     3.68  10.51  13.28
+ 588  561          0.00    24  16  20   0.4292  0.2032  0.1397    15.37  10.72  13.61
+ 589  562          0.00     1  18  20   0.0167  0.2231  0.1379     0.60  11.77  13.43
+ 590  563          0.00    55  18  20   0.9821  0.2251  0.1359    35.17  11.88  13.24
+ 591  564          0.00    25  19  20   0.4465  0.2362  0.1379    15.99  12.46  13.43
+ 592  565          0.00    34  20  20   0.6144  0.2471  0.1389    22.00  13.04  13.53
+ 593  566          0.00    50  22  20   0.8919  0.2777  0.1368    31.94  14.65  13.33
+ 594  567          0.00    36  23  20   0.6379  0.2903  0.1379    22.85  15.32  13.43
+ 595  568          0.00    50  26  20   0.8872  0.3199  0.1371    31.77  16.88  13.35
+ 596  569          0.00    36  27  20   0.6426  0.3331  0.1378    23.02  17.57  13.43
+ 597  570          0.00    13  28  20   0.2288  0.3499  0.1405     8.19  18.46  13.68
+ 598  571          0.00     4  30  20   0.0739  0.3694  0.1385     2.65  19.49  13.49
+ 599  572          0.00    52  34  20   0.9237  0.4220  0.1403    33.08  22.27  13.67
+ 600  573          0.00    25  36  20   0.4463  0.4485  0.1403    15.98  23.66  13.66
+ 601  574          0.00     1  42  20   0.0222  0.5256  0.1373     0.79  27.73  13.37
+ 602  575          0.00    25  42  20   0.4402  0.5205  0.1394    15.77  27.46  13.57
+ 603  576          0.00     2  46  20   0.0436  0.5744  0.1371     1.56  30.31  13.35
+ 604  577          0.00    24  46  20   0.4225  0.5795  0.1407    15.13  30.58  13.70
+ 605  578          0.00    52  48  20   0.9370  0.6032  0.1390    33.56  31.83  13.54
+ 606  579          0.00     8  52  20   0.1443  0.6443  0.1384     5.17  34.00  13.48
+ 607  580          0.00    20  52  20   0.3493  0.6525  0.1393    12.51  34.43  13.57
+ 608  581          0.00     3  54  20   0.0574  0.6703  0.1404     2.06  35.37  13.67
+ 609  582          0.00    30  55  20   0.5391  0.6880  0.1375    19.31  36.30  13.39
+ 610  583          0.00    37  56  20   0.6636  0.7062  0.1389    23.76  37.26  13.53
+ 611  584          0.00     8  62  20   0.1492  0.7808  0.1365     5.34  41.20  13.29
+ 612  585          0.00    17  63  20   0.3012  0.7897  0.1399    10.79  41.66  13.63
+ 613  586          0.00    26  67  20   0.4604  0.8391  0.1414    16.49  44.27  13.77
+ 614  587          0.00     2  69  20   0.0399  0.8602  0.1375     1.43  45.39  13.39
+ 615  588          0.00    11  70  20   0.1892  0.8741  0.1399     6.78  46.12  13.62
+ 616  589          0.00    50  74  20   0.8934  0.9222  0.1377    32.00  48.66  13.41
+ 617  590          0.00    18  75  20   0.3140  0.9407  0.1398    11.25  49.63  13.62
+ 618  591          0.00     3  76  20   0.0528  0.9439  0.1382     1.89  49.80  13.46
+ 619  592          0.00    21   1  21   0.3788  0.0110  0.1430    13.57   0.58  13.93
+ 620  593          0.00    21   5  21   0.3712  0.0651  0.1444    13.29   3.44  14.06
+ 621  594          0.00    52  10  21   0.9222  0.1267  0.1437    33.03   6.69  14.00
+ 622  595          0.00     9  12  21   0.1622  0.1546  0.1482     5.81   8.16  14.43
+ 623  596          0.00    20  14  21   0.3551  0.1695  0.1449    12.72   8.94  14.11
+ 624  597          0.00    14  15  21   0.2531  0.1918  0.1450     9.06  10.12  14.12
+ 625  598          0.00    51  15  21   0.9145  0.1890  0.1450    32.75   9.97  14.12
+ 626  599          0.01    10  16  21   0.1831  0.2039  0.1440     6.56  10.76  14.02
+ 627  600          0.00    40  16  21   0.7163  0.1970  0.1435    25.65  10.40  13.98
+ 628  601          0.00    21  21  21   0.3741  0.2585  0.1440    13.40  13.64  14.02
+ 629  602          0.00    42  24  21   0.7467  0.2984  0.1471    26.74  15.74  14.33
+ 630  603          0.00     5  34  21   0.0816  0.4211  0.1450     2.92  22.22  14.12
+ 631  604          0.00    10  34  21   0.1739  0.4277  0.1452     6.23  22.57  14.15
+ 632  605          0.00    41  35  21   0.7330  0.4403  0.1439    26.25  23.23  14.01
+ 633  606          0.00    29  38  21   0.5168  0.4705  0.1465    18.51  24.82  14.27
+ 634  607          0.00    20  40  21   0.3604  0.5013  0.1453    12.91  26.45  14.15
+ 635  608          0.00    43  44  21   0.7751  0.5518  0.1445    27.76  29.11  14.07
+ 636  609          0.00    12  50  21   0.2143  0.6276  0.1454     7.67  33.11  14.16
+ 637  610          0.00    33  51  21   0.5903  0.6337  0.1478    21.14  33.44  14.39
+ 638  611          0.00    27  57  21   0.4868  0.7093  0.1451    17.43  37.42  14.13
+ 639  612          0.00    43  63  21   0.7745  0.7904  0.1463    27.74  41.70  14.25
+ 640  613          0.00    22  65  21   0.3897  0.8136  0.1431    13.96  42.93  13.94
+ 641  614          0.00    11  66  21   0.2026  0.8229  0.1460     7.25  43.42  14.22
+ 642  615          0.00    19  67  21   0.3391  0.8407  0.1474    12.14  44.35  14.36
+ 643  616          0.00    37  67  21   0.6690  0.8313  0.1483    23.96  43.86  14.45
+ 644  617          0.00    49  70  21   0.8760  0.8781  0.1429    31.37  46.33  13.92
+ 645  618          0.00     5   2  22   0.0931  0.0279  0.1506     3.34   1.47  14.67
+ 646  619          0.01    53   5  22   0.9394  0.0637  0.1520    33.64   3.36  14.80
+ 647  620          0.00    24   7  22   0.4291  0.0878  0.1498    15.37   4.63  14.59
+ 648  621          0.00    24  12  22   0.4216  0.1484  0.1520    15.10   7.83  14.81
+ 649  622          0.00    55  15  22   0.9821  0.1838  0.1521    35.17   9.70  14.82
+ 650  623          0.00    32  16  22   0.5760  0.2052  0.1558    20.63  10.83  15.17
+ 651  624          0.00    11  21  22   0.1948  0.2591  0.1509     6.98  13.67  14.70
+ 652  625          0.00    31  22  22   0.5548  0.2764  0.1504    19.87  14.58  14.65
+ 653  626          0.00    54  25  22   0.9599  0.3125  0.1556    34.38  16.49  15.15
+ 654  627          0.00    37  29  22   0.6638  0.3600  0.1501    23.77  18.99  14.62
+ 655  628          0.00    34  32  22   0.6082  0.3991  0.1511    21.78  21.06  14.72
+ 656  629          0.00    43  32  22   0.7595  0.4039  0.1518    27.20  21.31  14.79
+ 657  630          0.00    19  36  22   0.3329  0.4449  0.1543    11.92  23.47  15.02
+ 658  631          0.00    49  36  22   0.8723  0.4529  0.1508    31.24  23.90  14.69
+ 659  632          0.00    26  39  22   0.4622  0.4881  0.1514    16.55  25.76  14.75
+ 660  633          0.00    51  40  22   0.9134  0.4986  0.1511    32.71  26.31  14.72
+ 661  634          0.00    22  51  22   0.3959  0.6390  0.1521    14.18  33.72  14.82
+ 662  635          0.00     0  52  22   0.0000  0.6472  0.1544     0.00  34.15  15.04
+ 663  635          0.00    55  52  22   0.9821  0.6476  0.1516    35.17  34.17  14.76
+ 664  636          0.00    47  53  22   0.8420  0.6633  0.1534    30.15  35.00  14.94
+ 665  637          0.00    14  57  22   0.2502  0.7176  0.1541     8.96  37.86  15.00
+ 666  638          0.00    22  62  22   0.3868  0.7739  0.1518    13.85  40.83  14.78
+ 667  639          0.00    31  65  22   0.5547  0.8086  0.1531    19.87  42.66  14.91
+ 668  640          0.00    55  65  22   0.9821  0.8145  0.1541    35.17  42.98  15.01
+ 669  641          0.00    51  71  22   0.9042  0.8906  0.1530    32.38  46.99  14.90
+ 670  642          0.00    14  73  22   0.2556  0.9085  0.1543     9.16  47.94  15.02
+ 671  643          0.00    35  74  22   0.6282  0.9288  0.1503    22.50  49.00  14.63
+ 672  644          0.00     9   0  23   0.1563  0.0000  0.1596     5.60   0.00  15.54
+ 673  645          0.00    17   1  23   0.2972  0.0177  0.1605    10.64   0.93  15.63
+ 674  646          0.00    38   4  23   0.6766  0.0514  0.1586    24.23   2.71  15.45
+ 675  647          0.00    47  10  23   0.8362  0.1251  0.1602    29.95   6.60  15.60
+ 676  648          0.00     1  11  23   0.0208  0.1360  0.1591     0.74   7.18  15.49
+ 677  649          0.00     5  13  23   0.0816  0.1583  0.1608     2.92   8.35  15.66
+ 678  650          0.00    41  13  23   0.7390  0.1636  0.1629    26.47   8.63  15.86
+ 679  651          0.00     3  16  23   0.0448  0.2006  0.1610     1.61  10.59  15.69
+ 680  652          0.00     7  19  23   0.1279  0.2328  0.1613     4.58  12.28  15.71
+ 681  653          0.00    18  20  23   0.3268  0.2484  0.1612    11.70  13.10  15.70
+ 682  654          0.00    49  23  23   0.8716  0.2879  0.1601    31.22  15.19  15.60
+ 683  655          0.00    12  24  23   0.2176  0.3048  0.1603     7.79  16.08  15.61
+ 684  656          0.00    52  29  23   0.9210  0.3623  0.1582    32.98  19.11  15.41
+ 685  657          0.00    22  32  23   0.4000  0.4005  0.1586    14.32  21.13  15.45
+ 686  658          0.00    47  32  23   0.8414  0.4042  0.1565    30.14  21.33  15.25
+ 687  659          0.00    40  44  23   0.7196  0.5561  0.1584    25.77  29.34  15.43
+ 688  660          0.00     2  45  23   0.0387  0.5633  0.1592     1.39  29.72  15.51
+ 689  661          0.00    35  47  23   0.6171  0.5917  0.1579    22.10  31.22  15.38
+ 690  662          0.00    47  47  23   0.8477  0.5841  0.1577    30.36  30.82  15.36
+ 691  663          0.00    51  51  23   0.9039  0.6356  0.1600    32.37  33.53  15.59
+ 692  664          0.00    20  58  23   0.3611  0.7240  0.1608    12.93  38.20  15.66
+ 693  665          0.00    17  61  23   0.3031  0.7623  0.1611    10.85  40.22  15.69
+ 694  666          0.00    35  61  23   0.6165  0.7563  0.1589    22.08  39.90  15.47
+ 695  667          0.00    10  62  23   0.1747  0.7709  0.1583     6.26  40.67  15.42
+ 696  668          0.00    48  64  23   0.8555  0.7955  0.1622    30.64  41.97  15.80
+ 697  669          0.00     0  69  23   0.0000  0.8623  0.1610     0.00  45.50  15.68
+ 698  669          0.00    55  69  23   0.9821  0.8630  0.1591    35.17  45.53  15.50
+ 699  670          0.00    37  70  23   0.6596  0.8760  0.1582    23.62  46.22  15.41
+ 700  671          0.00    29  71  23   0.5198  0.8878  0.1600    18.61  46.84  15.59
+ 701  672          0.00     3  72  23   0.0593  0.9022  0.1614     2.12  47.60  15.72
+ 702  673          0.00     7  76  23   0.1176  0.9465  0.1600     4.21  49.94  15.58
+ 703  674          0.00     1  77  23   0.0212  0.9567  0.1628     0.76  50.48  15.85
+ 704  675          0.00    21  78  23   0.3667  0.9811  0.1572    13.13  51.77  15.31
+ 705  644          0.00     9  79  23   0.1537  0.9875  0.1617     5.50  52.10  15.75
+ 706  676          0.00    54  79  23   0.9706  0.9875  0.1580    34.76  52.10  15.39
+ 707  677          0.00    45   1  24   0.8045  0.0110  0.1674    28.81   0.58  16.30
+ 708  678          0.00    55   2  24   0.9821  0.0227  0.1681    35.17   1.20  16.37
+ 709  679          0.00    34   4  24   0.6090  0.0539  0.1636    21.81   2.84  15.93
+ 710  680          0.00    44   6  24   0.7869  0.0751  0.1682    28.18   3.96  16.39
+ 711  681          0.00    18   9  24   0.3171  0.1099  0.1653    11.36   5.80  16.10
+ 712  682          0.00    23  14  24   0.4157  0.1807  0.1683    14.89   9.53  16.39
+ 713  683          0.00    36  18  24   0.6478  0.2281  0.1647    23.20  12.03  16.04
+ 714  684          0.00    53  18  24   0.9499  0.2218  0.1659    34.02  11.71  16.16
+ 715  685          0.00    27  21  24   0.4826  0.2608  0.1673    17.28  13.76  16.29
+ 716  686          0.00     7  22  24   0.1326  0.2759  0.1644     4.75  14.56  16.01
+ 717  626          0.00    55  25  24   0.9821  0.3129  0.1647    35.17  16.51  16.05
+ 718  687          0.01    14  29  24   0.2517  0.3627  0.1661     9.02  19.14  16.17
+ 719  688          0.00    44  30  24   0.7785  0.3708  0.1661    27.88  19.56  16.18
+ 720  689          0.00    10  36  24   0.1766  0.4533  0.1687     6.33  23.92  16.43
+ 721  690          0.00    38  37  24   0.6836  0.4645  0.1646    24.48  24.51  16.03
+ 722  691          0.00    45  43  24   0.8013  0.5435  0.1673    28.70  28.67  16.30
+ 723  692          0.00    52  47  24   0.9360  0.5868  0.1653    33.52  30.96  16.10
+ 724  693          0.00    29  48  24   0.5263  0.6000  0.1637    18.85  31.66  15.94
+ 725  694          0.00    17  54  24   0.3117  0.6757  0.1657    11.16  35.65  16.14
+ 726  695          0.00    40  54  24   0.7145  0.6746  0.1662    25.59  35.59  16.19
+ 727  696          0.00    44  54  24   0.7850  0.6742  0.1658    28.12  35.57  16.15
+ 728  697          0.00     3  58  24   0.0499  0.7295  0.1699     1.79  38.49  16.55
+ 729  698          0.00    30  58  24   0.5373  0.7232  0.1685    19.24  38.16  16.41
+ 730  699          0.00    16  66  24   0.2874  0.8231  0.1667    10.29  43.43  16.24
+ 731  700          0.00    51  67  24   0.9142  0.8411  0.1682    32.74  44.38  16.39
+ 732  701          0.00    35  68  24   0.6171  0.8477  0.1671    22.10  44.72  16.27
+ 733  702          0.00    18  70  24   0.3242  0.8750  0.1671    11.61  46.17  16.27
+ 734  703          0.00    48  71  24   0.8546  0.8893  0.1679    30.61  46.92  16.35
+ 735  704          0.00    49  76  24   0.8733  0.9508  0.1684    31.28  50.17  16.40
+ 736  705          0.00    31   5  25   0.5505  0.0642  0.1736    19.72   3.39  16.91
+ 737  706          0.00    30  11  25   0.5431  0.1357  0.1719    19.45   7.16  16.74
+ 738  707          0.00    27  12  25   0.4842  0.1512  0.1760    17.34   7.98  17.14
+ 739  708          0.00    19  14  25   0.3439  0.1778  0.1732    12.32   9.38  16.87
+ 740  709          0.00    43  26  25   0.7693  0.3295  0.1747    27.55  17.38  17.01
+ 741  710          0.00    47  26  25   0.8476  0.3207  0.1759    30.36  16.92  17.13
+ 742  711          0.00    11  32  25   0.1957  0.4028  0.1733     7.01  21.25  16.88
+ 743  712          0.00    28  32  25   0.4947  0.4009  0.1725    17.72  21.15  16.80
+ 744  713          0.00     2  33  25   0.0429  0.4147  0.1746     1.54  21.88  17.00
+ 745  714          0.00     6  33  25   0.1051  0.4123  0.1736     3.76  21.75  16.91
+ 746  715          0.00    54  33  25   0.9638  0.4070  0.1709    34.52  21.48  16.64
+ 747  716          0.00    20  34  25   0.3507  0.4244  0.1760    12.56  22.39  17.14
+ 748  717          0.00    25  41  25   0.4414  0.5064  0.1734    15.81  26.72  16.89
+ 749  718          0.00    44  41  25   0.7838  0.5098  0.1752    28.07  26.90  17.06
+ 750  719          0.00    49  42  25   0.8712  0.5278  0.1736    31.20  27.85  16.91
+ 751  720          0.00    11  44  25   0.1988  0.5459  0.1710     7.12  28.80  16.66
+ 752  721          0.00     2  47  25   0.0394  0.5873  0.1764     1.41  30.99  17.18
+ 753  722          0.00    11  48  25   0.2052  0.5985  0.1743     7.35  31.58  16.98
+ 754  723          0.00    52  53  25   0.9317  0.6568  0.1715    33.37  34.65  16.71
+ 755  724          0.00     7  55  25   0.1334  0.6840  0.1709     4.78  36.09  16.65
+ 756  725          0.00    32  55  25   0.5689  0.6856  0.1738    20.37  36.17  16.93
+ 757  726          0.00    40  57  25   0.7127  0.7096  0.1724    25.52  37.44  16.79
+ 758  727          0.00     0  61  25   0.0000  0.7667  0.1737     0.00  40.45  16.92
+ 759  727          0.00    55  61  25   0.9821  0.7639  0.1750    35.17  40.31  17.04
+ 760  728          0.00    44  70  25   0.7873  0.8752  0.1769    28.20  46.18  17.23
+ 761  729          0.00    52  78  25   0.9291  0.9810  0.1724    33.28  51.76  16.79
+ 762  730          0.00    36   2  26   0.6474  0.0277  0.1812    23.19   1.46  17.65
+ 763  731          0.00    23   5  26   0.4136  0.0612  0.1834    14.81   3.23  17.86
+ 764  732          0.00    11   6  26   0.1933  0.0737  0.1791     6.92   3.89  17.44
+ 765  733          0.00     8   7  26   0.1452  0.0932  0.1821     5.20   4.92  17.74
+ 766  734          0.00    12  11  26   0.2079  0.1313  0.1811     7.45   6.93  17.64
+ 767  735          0.00    15  11  26   0.2660  0.1368  0.1813     9.53   7.22  17.66
+ 768  736          0.00    36  13  26   0.6412  0.1618  0.1800    22.97   8.54  17.54
+ 769  737          0.00    14  14  26   0.2479  0.1744  0.1838     8.88   9.20  17.91
+ 770  738          0.00    50  15  26   0.8895  0.1853  0.1839    31.86   9.78  17.91
+ 771  739          0.00    26  17  26   0.4626  0.2101  0.1786    16.57  11.08  17.39
+ 772  740          0.00    38  19  26   0.6853  0.2431  0.1821    24.54  12.83  17.74
+ 773  741          0.00    17  22  26   0.3037  0.2705  0.1799    10.88  14.27  17.52
+ 774  742          0.00    38  22  26   0.6735  0.2708  0.1804    24.12  14.29  17.57
+ 775  743          0.00    21  26  26   0.3809  0.3271  0.1789    13.64  17.26  17.43
+ 776  744          0.00    44  34  26   0.7894  0.4311  0.1800    28.27  22.74  17.53
+ 777  745          0.00     2  39  26   0.0344  0.4907  0.1821     1.23  25.89  17.73
+ 778  746          0.00     9  40  26   0.1640  0.5041  0.1839     5.87  26.60  17.92
+ 779  747          0.00    36  40  26   0.6395  0.4968  0.1822    22.90  26.21  17.74
+ 780  748          0.00    39  44  26   0.7051  0.5486  0.1818    25.25  28.94  17.71
+ 781  749          0.00     6  49  26   0.1031  0.6103  0.1797     3.69  32.20  17.50
+ 782  750          0.00    12  56  26   0.2193  0.6953  0.1774     7.85  36.69  17.28
+ 783  751          0.00    49  58  26   0.8734  0.7264  0.1818    31.28  38.33  17.71
+ 784  752          0.00    16  59  26   0.2782  0.7346  0.1817     9.97  38.76  17.70
+ 785  753          0.00    29  61  26   0.5155  0.7656  0.1810    18.46  40.40  17.63
+ 786  754          0.00    46  61  26   0.8187  0.7651  0.1815    29.32  40.37  17.68
+ 787  755          0.00    14  63  26   0.2523  0.7861  0.1824     9.04  41.47  17.76
+ 788  756          0.00    29  64  26   0.5139  0.8014  0.1812    18.40  42.28  17.65
+ 789  757          0.00    52  72  26   0.9321  0.9020  0.1778    33.38  47.59  17.31
+ 790  758          0.00    39  74  26   0.6957  0.9289  0.1806    24.92  49.01  17.59
+ 791  759          0.00    13  76  26   0.2284  0.9500  0.1815     8.18  50.12  17.68
+ 792  760          0.00     6   0  27   0.1043  0.0000  0.1845     3.74   0.00  17.97
+ 793  761          0.00     2   4  27   0.0345  0.0451  0.1892     1.24   2.38  18.43
+ 794  762          0.00    27   4  27   0.4815  0.0545  0.1877    17.24   2.87  18.28
+ 795  763          0.00    33   6  27   0.5814  0.0799  0.1905    20.82   4.22  18.56
+ 796  764          0.00    25   8  27   0.4533  0.1037  0.1862    16.24   5.47  18.13
+ 797  765          0.00    42  12  27   0.7438  0.1458  0.1890    26.64   7.69  18.41
+ 798  766          0.00     6  22  27   0.1028  0.2785  0.1880     3.68  14.69  18.31
+ 799  767          0.00    12  23  27   0.2096  0.2899  0.1855     7.51  15.29  18.07
+ 800  768          0.00    50  27  27   0.8878  0.3414  0.1902    31.80  18.01  18.52
+ 801  769          0.04     8  29  27   0.1403  0.3670  0.1855     5.02  19.36  18.07
+ 802  770          0.00    18  29  27   0.3202  0.3645  0.1859    11.47  19.23  18.10
+ 803  771          0.00    46  29  27   0.8172  0.3639  0.1879    29.27  19.20  18.30
+ 804  772          0.00    30  30  27   0.5373  0.3730  0.1859    19.24  19.68  18.10
+ 805  773          0.00    41  30  27   0.7339  0.3732  0.1895    26.28  19.69  18.45
+ 806  774          0.00    15  32  27   0.2709  0.4033  0.1903     9.70  21.28  18.54
+ 807  775          0.00     2  33  27   0.0319  0.4162  0.1850     1.14  21.96  18.02
+ 808  776          0.00     8  34  27   0.1478  0.4242  0.1883     5.29  22.38  18.34
+ 809  777          0.00    33  43  27   0.5885  0.5346  0.1909    21.08  28.21  18.60
+ 810  778          0.00    32  47  27   0.5696  0.5880  0.1899    20.40  31.02  18.49
+ 811  779          0.00    11  51  27   0.1988  0.6337  0.1864     7.12  33.43  18.16
+ 812  780          0.00    32  51  27   0.5665  0.6354  0.1851    20.29  33.53  18.03
+ 813  781          0.00     4  52  27   0.0762  0.6524  0.1887     2.73  34.42  18.38
+ 814  782          0.00    41  52  27   0.7330  0.6443  0.1876    26.25  33.99  18.27
+ 815  783          0.00     9  62  27   0.1690  0.7782  0.1900     6.05  41.06  18.50
+ 816  784          0.00    32  65  27   0.5679  0.8142  0.1876    20.34  42.96  18.27
+ 817  785          0.00    52  65  27   0.9319  0.8102  0.1901    33.37  42.75  18.52
+ 818  786          0.00    23  70  27   0.4112  0.8744  0.1857    14.73  46.13  18.09
+ 819  787          0.00     3  74  27   0.0574  0.9219  0.1854     2.05  48.64  18.06
+ 820  788          0.00     7  74  27   0.1228  0.9249  0.1851     4.40  48.80  18.03
+ 821  760          0.00     6  79  27   0.1077  0.9875  0.1845     3.86  52.10  17.97
+ 822  731          0.00    23   5  28   0.4179  0.0601  0.1925    14.97   3.17  18.75
+ 823  789          0.00    15   7  28   0.2722  0.0858  0.1930     9.75   4.53  18.80
+ 824  790          0.00    29   8  28   0.5173  0.0976  0.1934    18.53   5.15  18.84
+ 825  791          0.00    48   8  28   0.8612  0.1002  0.1930    30.84   5.29  18.80
+ 826  792          0.00    44   9  28   0.7816  0.1076  0.1956    27.99   5.68  19.05
+ 827  793          0.00    45  15  28   0.8038  0.1838  0.1951    28.79   9.70  19.00
+ 828  794          0.00    38  17  28   0.6778  0.2117  0.1933    24.27  11.17  18.83
+ 829  795          0.00    28  19  28   0.4982  0.2359  0.1918    17.84  12.45  18.68
+ 830  796          0.00    41  20  28   0.7355  0.2538  0.1956    26.34  13.39  19.05
+ 831  797          0.00    55  24  28   0.9821  0.3005  0.1929    35.17  15.86  18.79
+ 832  798          0.00     8  25  28   0.1500  0.3151  0.1932     5.37  16.63  18.82
+ 833  799          0.00    28  25  28   0.5017  0.3169  0.1946    17.97  16.72  18.95
+ 834  800          0.00    24  26  28   0.4294  0.3278  0.1970    15.38  17.30  19.19
+ 835  801          0.00     0  29  28   0.0000  0.3609  0.1961     0.00  19.04  19.10
+ 836  801          0.00    55  29  28   0.9821  0.3613  0.1963    35.17  19.06  19.12
+ 837  802          0.00     4  30  28   0.0689  0.3722  0.1963     2.47  19.64  19.12
+ 838  803          0.00    48  32  28   0.8565  0.4031  0.1927    30.67  21.27  18.77
+ 839  804          0.00    37  35  28   0.6610  0.4343  0.1917    23.67  22.92  18.68
+ 840  805          0.00     0  36  28   0.0000  0.4558  0.1943     0.00  24.05  18.93
+ 841  806          0.00    19  36  28   0.3445  0.4562  0.1966    12.34  24.07  19.15
+ 842  805          0.00    55  37  28   0.9821  0.4564  0.1926    35.17  24.08  18.76
+ 843  807          0.00    18  39  28   0.3221  0.4919  0.1963    11.53  25.96  19.12
+ 844  808          0.00    44  42  28   0.7780  0.5268  0.1934    27.86  27.80  18.84
+ 845  809          0.00    55  43  28   0.9821  0.5366  0.1958    35.17  28.31  19.07
+ 846  810          0.00    46  48  28   0.8213  0.6010  0.1914    29.41  31.71  18.65
+ 847  811          0.00    43  55  28   0.7628  0.6900  0.1944    27.32  36.41  18.94
+ 848  812          0.00    47  58  28   0.8461  0.7253  0.1957    30.30  38.27  19.06
+ 849  813          0.00     1  59  28   0.0188  0.7346  0.1938     0.67  38.76  18.88
+ 850  814          0.00     2  64  28   0.0345  0.7983  0.1970     1.23  42.12  19.18
+ 851  815          0.00    37  64  28   0.6603  0.7952  0.1955    23.65  41.96  19.04
+ 852  816          0.00    28  68  28   0.5032  0.8493  0.1965    18.02  44.81  19.14
+ 853  817          0.00    11  69  28   0.1906  0.8602  0.1941     6.83  45.38  18.90
+ 854  818          0.00    34  69  28   0.6113  0.8626  0.1967    21.89  45.51  19.16
+ 855  819          0.00    49  69  28   0.8718  0.8646  0.1926    31.22  45.62  18.76
+ 856  820          0.00    20  72  28   0.3555  0.8977  0.1943    12.73  47.36  18.92
+ 857  821          0.00    24  76  28   0.4301  0.9454  0.1974    15.40  49.88  19.22
+ 858  822          0.00    50   0  29   0.8960  0.0000  0.2029    32.09   0.00  19.76
+ 859  823          0.00    36   4  29   0.6404  0.0517  0.2033    22.94   2.73  19.80
+ 860  824          0.00    10   8  29   0.1779  0.1008  0.2030     6.37   5.32  19.77
+ 861  825          0.00    24   9  29   0.4259  0.1111  0.1996    15.25   5.86  19.44
+ 862  826          0.00     5  10  29   0.0805  0.1246  0.2009     2.88   6.58  19.56
+ 863  827          0.00    47  25  29   0.8453  0.3145  0.1985    30.27  16.59  19.34
+ 864  828          0.00    33  27  29   0.5869  0.3321  0.1992    21.02  17.52  19.41
+ 865  829          0.00    18  32  29   0.3261  0.4052  0.2011    11.68  21.38  19.59
+ 866  830          0.00     5  33  29   0.0870  0.4124  0.2034     3.12  21.76  19.81
+ 867  831          0.00    31  36  29   0.5561  0.4487  0.2022    19.92  23.67  19.69
+ 868  832          0.00     5  38  29   0.0930  0.4769  0.2038     3.33  25.16  19.85
+ 869  833          0.00    14  41  29   0.2564  0.5080  0.2015     9.18  26.80  19.62
+ 870  834          0.00    37  44  29   0.6618  0.5540  0.2020    23.70  29.23  19.68
+ 871  835          0.00     4  45  29   0.0764  0.5633  0.2045     2.74  29.72  19.92
+ 872  836          0.00    39  47  29   0.6956  0.5834  0.1997    24.91  30.78  19.45
+ 873  837          0.00    14  57  29   0.2563  0.7106  0.2011     9.18  37.49  19.58
+ 874  838          0.00    42  58  29   0.7537  0.7297  0.1995    26.99  38.50  19.43
+ 875  839          0.00    22  67  29   0.3894  0.8382  0.2030    13.95  44.22  19.77
+ 876  840          0.00    25  71  29   0.4454  0.8827  0.2038    15.95  46.58  19.85
+ 877  841          0.00     0  72  29   0.0000  0.8963  0.1990     0.00  47.29  19.38
+ 878  842          0.00    38  72  29   0.6764  0.8959  0.2037    24.23  47.27  19.84
+ 879  841          0.00    55  72  29   0.9821  0.8993  0.2009    35.17  47.45  19.56
+ 880  843          0.00     2  76  29   0.0275  0.9537  0.2008     0.98  50.32  19.56
+ 881  844          0.00    46  79  29   0.8131  0.9875  0.2035    29.12  52.10  19.82
+ 882  845          0.00    14   1  30   0.2463  0.0140  0.2079     8.82   0.74  20.25
+ 883  846          0.00    16   5  30   0.2851  0.0593  0.2089    10.21   3.13  20.35
+ 884  847          0.00    19   5  30   0.3394  0.0607  0.2069    12.15   3.20  20.15
+ 885  848          0.00    45   5  30   0.7987  0.0598  0.2116    28.61   3.16  20.61
+ 886  849          0.00    33   7  30   0.5944  0.0873  0.2104    21.29   4.61  20.49
+ 887  850          0.00    51   7  30   0.9176  0.0922  0.2107    32.86   4.87  20.52
+ 888  851          0.00    10  12  30   0.1777  0.1459  0.2067     6.37   7.70  20.13
+ 889  852          0.00    38  13  30   0.6780  0.1574  0.2066    24.28   8.31  20.12
+ 890  853          0.00     7  14  30   0.1250  0.1747  0.2066     4.48   9.22  20.12
+ 891  854          0.00     5  18  30   0.0881  0.2253  0.2094     3.16  11.89  20.39
+ 892  855          0.00    15  22  30   0.2671  0.2757  0.2072     9.56  14.55  20.18
+ 893  856          0.00    49  24  30   0.8700  0.2938  0.2093    31.16  15.50  20.38
+ 894  857          0.00    22  25  30   0.3932  0.3154  0.2081    14.08  16.64  20.27
+ 895  858          0.00    27  27  30   0.4753  0.3408  0.2075    17.02  17.98  20.21
+ 896  859          0.00    22  30  30   0.3938  0.3748  0.2062    14.10  19.77  20.08
+ 897  860          0.00    34  31  30   0.6074  0.3873  0.2100    21.75  20.44  20.45
+ 898  861          0.00     0  32  30   0.0000  0.3991  0.2087     0.00  21.06  20.33
+ 899  862          0.00    12  35  30   0.2098  0.4412  0.2078     7.51  23.28  20.24
+ 900  863          0.00    51  38  30   0.9085  0.4720  0.2081    32.54  24.90  20.27
+ 901  864          0.00    33  39  30   0.5827  0.4826  0.2092    20.87  25.46  20.37
+ 902  865          0.00    38  40  30   0.6819  0.4992  0.2076    24.42  26.34  20.22
+ 903  866          0.00     2  42  30   0.0318  0.5195  0.2076     1.14  27.41  20.22
+ 904  867          0.00    49  47  30   0.8716  0.5908  0.2069    31.22  31.17  20.15
+ 905  868          0.00    19  48  30   0.3427  0.6060  0.2072    12.27  31.97  20.18
+ 906  869          0.00    43  50  30   0.7615  0.6259  0.2118    27.27  33.02  20.63
+ 907  870          0.00    53  50  30   0.9464  0.6256  0.2097    33.89  33.01  20.43
+ 908  871          0.00    20  55  30   0.3657  0.6887  0.2065    13.10  36.34  20.12
+ 909  872          0.00     9  56  30   0.1677  0.7017  0.2081     6.00  37.02  20.27
+ 910  873          0.00     8  60  30   0.1410  0.7491  0.2089     5.05  39.52  20.35
+ 911  874          0.00    29  60  30   0.5247  0.7457  0.2055    18.79  39.34  20.02
+ 912  875          0.00    41  75  30   0.7341  0.9346  0.2073    26.29  49.31  20.19
+ 913  876          0.00    54  76  30   0.9688  0.9458  0.2111    34.70  49.90  20.56
+ 914  877          0.00    34  77  30   0.6051  0.9660  0.2079    21.67  50.97  20.25
+ 915  878          0.00    10  78  30   0.1743  0.9696  0.2085     6.24  51.16  20.30
+ 916  822          0.00    51  79  30   0.9043  0.9875  0.2066    32.39  52.10  20.12
+ 917  879          0.00    47   2  31   0.8326  0.0271  0.2157    29.82   1.43  21.00
+ 918  880          0.00     1   3  31   0.0182  0.0339  0.2156     0.65   1.79  20.99
+ 919  881          0.00     5   3  31   0.0917  0.0357  0.2125     3.28   1.89  20.70
+ 920  882          0.00    11   5  31   0.2044  0.0653  0.2131     7.32   3.45  20.75
+ 921  883          0.00    12  11  31   0.2203  0.1390  0.2125     7.89   7.34  20.70
+ 922  884          0.00    16  11  31   0.2786  0.1385  0.2146     9.98   7.31  20.90
+ 923  885          0.00    31  11  31   0.5565  0.1391  0.2127    19.93   7.34  20.72
+ 924  886          0.00    13  17  31   0.2251  0.2117  0.2158     8.06  11.17  21.01
+ 925  887          0.00    33  20  31   0.5942  0.2499  0.2151    21.28  13.18  20.95
+ 926  888          0.00    31  24  31   0.5493  0.2953  0.2157    19.67  15.58  21.01
+ 927  889          0.01    41  25  31   0.7266  0.3113  0.2150    26.02  16.42  20.94
+ 928  890          0.00    36  26  31   0.6391  0.3258  0.2137    22.89  17.19  20.81
+ 929  891          0.00    30  29  31   0.5393  0.3622  0.2171    19.31  19.11  21.14
+ 930  892          0.00    41  29  31   0.7366  0.3631  0.2160    26.38  19.16  21.04
+ 931  893          0.00     8  30  31   0.1405  0.3800  0.2121     5.03  20.05  20.66
+ 932  894          0.00    24  35  31   0.4319  0.4339  0.2135    15.47  22.90  20.79
+ 933  895          0.00    16  36  31   0.2871  0.4517  0.2132    10.28  23.83  20.76
+ 934  896          0.00    41  41  31   0.7393  0.5067  0.2125    26.48  26.73  20.69
+ 935  897          0.00     9  43  31   0.1563  0.5418  0.2172     5.60  28.59  21.15
+ 936  898          0.00    36  43  31   0.6372  0.5362  0.2131    22.82  28.29  20.76
+ 937  899          0.00    18  44  31   0.3158  0.5540  0.2161    11.31  29.23  21.05
+ 938  900          0.00    32  46  31   0.5734  0.5715  0.2155    20.53  30.15  20.99
+ 939  901          0.00     4  49  31   0.0751  0.6115  0.2126     2.69  32.27  20.71
+ 940  902          0.00    31  52  31   0.5555  0.6492  0.2153    19.89  34.25  20.97
+ 941  903          0.00    41  53  31   0.7379  0.6630  0.2182    26.43  34.98  21.25
+ 942  904          0.00    25  54  31   0.4431  0.6772  0.2130    15.87  35.73  20.75
+ 943  905          0.00    48  55  31   0.8633  0.6874  0.2133    30.92  36.27  20.78
+ 944  906          0.00     5  61  31   0.0921  0.7649  0.2168     3.30  40.36  21.11
+ 945  907          0.00    12  62  31   0.2221  0.7726  0.2161     7.95  40.76  21.05
+ 946  908          0.00    23  62  31   0.4149  0.7756  0.2156    14.86  40.92  21.00
+ 947  909          0.00    15  65  31   0.2767  0.8067  0.2136     9.91  42.57  20.80
+ 948  910          0.00    11  66  31   0.1924  0.8242  0.2170     6.89  43.48  21.14
+ 949  844          0.00    47  78  31   0.8330  0.9727  0.2137    29.83  51.32  20.81
+ 950  911          0.00     2   6  32   0.0312  0.0786  0.2236     1.12   4.15  21.78
+ 951  912          0.00    40   6  32   0.7073  0.0754  0.2245    25.33   3.98  21.86
+ 952  913          0.00    46   6  32   0.8180  0.0717  0.2227    29.30   3.78  21.69
+ 953  914          0.00    29   7  32   0.5251  0.0914  0.2206    18.80   4.82  21.48
+ 954  915          0.00    36  14  32   0.6366  0.1807  0.2241    22.80   9.53  21.83
+ 955  916          0.00    22  16  32   0.3939  0.2010  0.2236    14.11  10.60  21.78
+ 956  854          0.00     5  17  32   0.0930  0.2160  0.2192     3.33  11.40  21.35
+ 957  917          0.00     1  18  32   0.0163  0.2293  0.2225     0.58  12.10  21.67
+ 958  918          0.00    36  20  32   0.6344  0.2472  0.2228    22.72  13.04  21.70
+ 959  919          0.00    27  21  32   0.4892  0.2568  0.2218    17.52  13.55  21.60
+ 960  920          0.00     3  31  32   0.0572  0.3863  0.2201     2.05  20.38  21.44
+ 961  921          0.00     8  34  32   0.1430  0.4287  0.2240     5.12  22.62  21.81
+ 962  922          0.00    32  34  32   0.5671  0.4191  0.2240    20.31  22.11  21.82
+ 963  923          0.00    20  35  32   0.3543  0.4344  0.2208    12.69  22.92  21.51
+ 964  924          0.00    36  36  32   0.6375  0.4493  0.2215    22.83  23.71  21.58
+ 965  925          0.00    49  41  32   0.8757  0.5088  0.2226    31.36  26.85  21.68
+ 966  926          0.00    53  41  32   0.9506  0.5168  0.2242    34.04  27.27  21.83
+ 967  927          0.00    13  43  32   0.2371  0.5385  0.2212     8.49  28.41  21.55
+ 968  928          0.00     0  46  32   0.0000  0.5779  0.2218     0.00  30.49  21.60
+ 969  929          0.00    31  49  32   0.5534  0.6143  0.2227    19.82  32.41  21.69
+ 970  930          0.00    39  57  32   0.6908  0.7175  0.2230    24.74  37.86  21.72
+ 971  931          0.00    37  62  32   0.6596  0.7780  0.2208    23.62  41.05  21.51
+ 972  932          0.00    48  64  32   0.8589  0.8013  0.2213    30.76  42.28  21.56
+ 973  933          0.00    18  67  32   0.3203  0.8387  0.2249    11.47  44.25  21.91
+ 974  934          0.00    29  68  32   0.5132  0.8466  0.2225    18.38  44.67  21.68
+ 975  935          0.00    18  75  32   0.3296  0.9402  0.2192    11.80  49.61  21.35
+ 976  936          0.00    43  75  32   0.7720  0.9387  0.2243    27.65  49.53  21.84
+ 977  937          0.00    48  75  32   0.8657  0.9401  0.2250    31.01  49.60  21.92
+ 978  938          0.00    21   1  33   0.3757  0.0114  0.2286    13.45   0.60  22.26
+ 979  939          0.00    37  10  33   0.6680  0.1240  0.2286    23.92   6.54  22.26
+ 980  940          0.00     4  11  33   0.0652  0.1424  0.2305     2.34   7.51  22.45
+ 981  941          0.00     8  11  33   0.1448  0.1353  0.2304     5.19   7.14  22.44
+ 982  942          0.00     8  22  33   0.1395  0.2705  0.2320     5.00  14.27  22.59
+ 983  943          0.00    47  27  33   0.8400  0.3391  0.2299    30.08  17.89  22.40
+ 984  944          0.00    11  30  33   0.2037  0.3700  0.2288     7.29  19.52  22.29
+ 985  945          0.00    15  40  33   0.2605  0.5000  0.2312     9.33  26.38  22.52
+ 986  946          0.00    15  45  33   0.2695  0.5629  0.2326     9.65  29.70  22.65
+ 987  947          0.00    39  45  33   0.6889  0.5658  0.2294    24.67  29.85  22.35
+ 988  948          0.00    51  45  33   0.9171  0.5665  0.2295    32.84  29.89  22.35
+ 989  949          0.00    35  49  33   0.6331  0.6142  0.2280    22.68  32.41  22.21
+ 990  950          0.00    39  52  33   0.6944  0.6529  0.2295    24.87  34.45  22.35
+ 991  951          0.00    33  59  33   0.5867  0.7363  0.2300    21.01  38.85  22.40
+ 992  952          0.00    41  60  33   0.7341  0.7482  0.2321    26.29  39.47  22.60
+ 993  953          0.00    14  68  33   0.2494  0.8479  0.2303     8.93  44.74  22.43
+ 994  954          0.00    25  69  33   0.4536  0.8647  0.2266    16.25  45.62  22.07
+ 995  955          0.00    37  76  33   0.6559  0.9495  0.2286    23.49  50.10  22.26
+ 996  956          0.00    30  78  33   0.5412  0.9727  0.2260    19.38  51.32  22.01
+ 997  957          0.00    27   1  34   0.4874  0.0109  0.2361    17.46   0.57  22.99
+ 998  958          0.00     9   2  34   0.1571  0.0277  0.2355     5.62   1.46  22.94
+ 999  959          0.00    54   2  34   0.9702  0.0218  0.2362    34.75   1.15  23.01
+1000  960          0.00     4   3  34   0.0680  0.0366  0.2372     2.43   1.93  23.10
+1001  961          0.00    54  16  34   0.9559  0.2008  0.2351    34.23  10.60  22.90
+1002  962          0.00    29  17  34   0.5239  0.2118  0.2372    18.76  11.18  23.10
+1003  963          0.00    33  19  34   0.5981  0.2372  0.2346    21.42  12.52  22.85
+1004  964          0.00    20  20  34   0.3486  0.2439  0.2335    12.48  12.87  22.74
+1005  965          0.00     1  27  34   0.0162  0.3390  0.2381     0.58  17.89  23.19
+1006  966          0.00    43  27  34   0.7734  0.3406  0.2359    27.70  17.97  22.97
+1007  967          0.00    38  28  34   0.6818  0.3534  0.2354    24.42  18.65  22.92
+1008  968          0.00    27  29  34   0.4733  0.3641  0.2349    16.95  19.21  22.88
+1009  969          0.00    40  32  34   0.7147  0.4035  0.2351    25.60  21.29  22.89
+1010  970          0.00    31  39  34   0.5543  0.4841  0.2377    19.85  25.54  23.15
+1011  971          0.00    49  39  34   0.8708  0.4855  0.2343    31.19  25.62  22.82
+1012  972          0.00    53  39  34   0.9502  0.4856  0.2359    34.03  25.62  22.98
+1013  973          0.00    40  42  34   0.7080  0.5248  0.2344    25.36  27.69  22.83
+1014  974          0.00    19  48  34   0.3454  0.5990  0.2356    12.37  31.61  22.95
+1015  975          0.00    48  49  34   0.8504  0.6108  0.2377    30.46  32.23  23.15
+1016  976          0.00    19  52  34   0.3411  0.6489  0.2345    12.22  34.24  22.84
+1017  977          0.00    50  52  34   0.8947  0.6479  0.2341    32.04  34.19  22.80
+1018  978          0.00    10  57  34   0.1765  0.7100  0.2371     6.32  37.46  23.10
+1019  979          0.00    17  64  34   0.3096  0.7980  0.2352    11.09  42.11  22.91
+1020  980          0.00    10  73  34   0.1729  0.9143  0.2344     6.19  48.24  22.83
+1021  981          0.00     0  74  34   0.0000  0.9236  0.2363     0.00  48.73  23.02
+1022  982          0.00     7   5  35   0.1217  0.0645  0.2429     4.36   3.40  23.66
+1023  983          0.00    14   8  35   0.2516  0.0952  0.2431     9.01   5.02  23.67
+1024  984          0.00    11  12  35   0.2024  0.1542  0.2415     7.25   8.13  23.52
+1025  985          0.00    28  12  35   0.5034  0.1545  0.2432    18.03   8.15  23.68
+1026  986          0.00     2  16  35   0.0378  0.2025  0.2423     1.35  10.68  23.60
+1027  987          0.00    45  18  35   0.8037  0.2288  0.2437    28.78  12.07  23.73
+1028  988          0.00    15  19  35   0.2665  0.2348  0.2404     9.55  12.39  23.41
+1029  989          0.00    48  21  35   0.8633  0.2575  0.2434    30.92  13.59  23.71
+1030  990          0.00    29  23  35   0.5167  0.2825  0.2433    18.51  14.91  23.69
+1031  991          0.00    35  23  35   0.6216  0.2823  0.2421    22.26  14.90  23.58
+1032  992          0.00    25  24  35   0.4446  0.2984  0.2435    15.92  15.74  23.71
+1033  993          0.00    54  24  35   0.9711  0.2995  0.2450    34.78  15.80  23.87
+1034  994          0.00    23  26  35   0.4020  0.3208  0.2445    14.40  16.92  23.81
+1035  995          0.00    32  26  35   0.5692  0.3214  0.2399    20.38  16.96  23.37
+1036  996          0.00    36  26  35   0.6355  0.3250  0.2449    22.76  17.15  23.85
+1037  997          0.00    19  27  35   0.3385  0.3376  0.2453    12.12  17.81  23.89
+1038  998          0.00    52  27  35   0.9374  0.3315  0.2458    33.57  17.49  23.94
+1039  999          0.00    47  30  35   0.8391  0.3746  0.2420    30.05  19.76  23.57
+1040 1000          0.00    17  34  35   0.3037  0.4296  0.2444    10.88  22.67  23.80
+1041 1001          0.00    38  35  35   0.6725  0.4378  0.2463    24.08  23.10  23.99
+1042 1002          0.00    53  35  35   0.9491  0.4385  0.2429    33.99  23.14  23.65
+1043 1003          0.00    36  39  35   0.6422  0.4890  0.2435    23.00  25.80  23.71
+1044 1004          0.00    22  40  35   0.3932  0.4978  0.2427    14.08  26.26  23.64
+1045 1005          0.00    18  43  35   0.3251  0.5376  0.2441    11.64  28.36  23.77
+1046 1006          0.00    29  43  35   0.5121  0.5356  0.2446    18.34  28.26  23.83
+1047 1007          0.00    25  48  35   0.4481  0.5984  0.2414    16.05  31.57  23.51
+1048 1008          0.00     4  54  35   0.0724  0.6714  0.2439     2.59  35.42  23.76
+1049 1009          0.00    42  55  35   0.7454  0.6913  0.2434    26.69  36.48  23.70
+1050 1010          0.00     6  57  35   0.1100  0.7080  0.2438     3.94  37.36  23.74
+1051 1011          0.00    49  57  35   0.8837  0.7092  0.2445    31.65  37.42  23.81
+1052 1012          0.00    25  59  35   0.4437  0.7336  0.2443    15.89  38.70  23.80
+1053 1013          0.00    19  60  35   0.3456  0.7452  0.2458    12.38  39.32  23.94
+1054 1014          0.00    13  64  35   0.2348  0.7982  0.2411     8.41  42.11  23.48
+1055 1015          0.00    29  74  35   0.5144  0.9299  0.2423    18.42  49.07  23.60
+1056 1016          0.00    16  78  35   0.2799  0.9776  0.2427    10.02  51.58  23.64
+1057 1017          0.00    50   2  36   0.8944  0.0283  0.2500    32.03   1.50  24.35
+1058 1005          0.00    38   3  36   0.6744  0.0366  0.2500    24.15   1.93  24.35
+1059 1018          0.00    24   5  36   0.4212  0.0617  0.2500    15.09   3.25  24.35
+1060 1019          0.00    41   6  36   0.7306  0.0723  0.2500    26.17   3.81  24.35
+1061 1020          0.00     3   8  36   0.0549  0.1015  0.2500     1.97   5.36  24.35
+1062 1021          0.00     6  10  36   0.1050  0.1254  0.2500     3.76   6.61  24.35
+1063 1022          0.00    54  11  36   0.9664  0.1389  0.2500    34.61   7.33  24.35
+1064 1023          0.00    48  13  36   0.8492  0.1617  0.2500    30.41   8.53  24.35
+1065 1008          0.00    52  13  36   0.9322  0.1684  0.2500    33.39   8.89  24.35
+1066 1009          0.00    14  15  36   0.2541  0.1911  0.2500     9.10  10.08  24.35
+1067 1024          0.00    21  15  36   0.3734  0.1848  0.2500    13.37   9.75  24.35
+1068 1025          0.00    11  20  36   0.2000  0.2500  0.2500     7.16  13.19  24.35
+1069 1013          0.00    37  20  36   0.6578  0.2492  0.2500    23.56  13.15  24.35
+1070 1026          0.00     3  31  36   0.0536  0.3821  0.2500     1.92  20.16  24.35
+1071 1016          0.00    41  38  36   0.7239  0.4757  0.2500    25.93  25.10  24.35
+1072 1017          0.00     6  42  36   0.1059  0.5283  0.2500     3.79  27.87  24.35
+1073 1018          0.00    32  45  36   0.5785  0.5611  0.2500    20.72  29.60  24.35
+1074 1019          0.00    15  46  36   0.2689  0.5727  0.2500     9.63  30.22  24.35
+1075 1027          0.00     2  47  36   0.0340  0.5832  0.2500     1.22  30.77  24.35
+1076 1020          0.00    53  48  36   0.9451  0.6005  0.2500    33.85  31.68  24.35
+1077 1028          0.00     9  49  36   0.1536  0.6145  0.2500     5.50  32.42  24.35
+1078 1021          0.00    50  50  36   0.8976  0.6260  0.2500    32.15  33.03  24.35
+1079  985          0.00    28  52  36   0.5030  0.6499  0.2500    18.01  34.29  24.35
+1080 1023          0.00     9  53  36   0.1541  0.6601  0.2500     5.52  34.83  24.35
+1081 1024          0.00    35  55  36   0.6263  0.6860  0.2500    22.43  36.20  24.35
+1082 1029          0.00    38  55  36   0.6713  0.6857  0.2500    24.04  36.18  24.35
+1083  989          0.00     8  60  36   0.1383  0.7530  0.2500     4.95  39.73  24.35
+1084 1025          0.00    45  60  36   0.8006  0.7505  0.2500    28.67  39.60  24.35
+1085  993          0.00     2  64  36   0.0323  0.8003  0.2500     1.16  42.23  24.35
+1086  994          0.00    33  65  36   0.5856  0.8169  0.2500    20.97  43.10  24.35
+1087  998          0.00     4  67  36   0.0678  0.8333  0.2500     2.43  43.97  24.35
+1088  997          0.00    37  67  36   0.6609  0.8361  0.2500    23.67  44.11  24.35
+1089  999          0.00     9  70  36   0.1639  0.8744  0.2500     5.87  46.13  24.35
+1090 1026          0.00    53  71  36   0.9456  0.8837  0.2500    33.87  46.63  24.35
+1091 1000          0.00    39  74  36   0.6970  0.9233  0.2500    24.96  48.71  24.35
+1092 1001          0.00    18  75  36   0.3265  0.9375  0.2500    11.69  49.46  24.35
+1093 1030          0.00     1  78  36   0.0203  0.9771  0.2500     0.73  51.56  24.35
+1094 1003          0.00    20  79  36   0.3539  0.9875  0.2500    12.68  52.10  24.35
+
+
+
+ There are  1094 peaks higher than the threshold      0.00113 (   1.20000 *sigma)
+
+ These peaks are sorted into descending order of height, the top   6 are selected for output
+ The number of symmetry related peaks rejected for being too close to the map edge is   58
+ Peaks related by symmetry are assigned the same site number
+
+  Order No. Site Height/Rms    Grid      Fractional coordinates   Orthogonal coordinates
+
+     1  264  242   50.58    19   6   9   0.3404  0.0776  0.0602    12.19   4.10   5.86
+     2  801  769   44.91     8  29  27   0.1403  0.3670  0.1855     5.02  19.36  18.07
+     3  587  560   44.38     6  16  20   0.1028  0.1992  0.1364     3.68  10.51  13.28
+     4  549  523   30.24    10  48  18   0.1737  0.5941  0.1251     6.22  31.35  12.18
+     5  175  155    9.44    18   1   6   0.3285  0.0133  0.0416    11.76   0.70   4.06
+     6  626  599    8.67    10  16  21   0.1831  0.2039  0.1440     6.56  10.76  14.02
+
+
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ PEAKMAX:   Normal Termination of PEAKMAX
+Times: User:       0.0s System:    0.0s Elapsed:     0:00  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>
