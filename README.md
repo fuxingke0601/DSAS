@@ -23,11 +23,9 @@ The DSAS has a user-friendly GUI written in PyQt5. It mainly consists of four pa
 - **“Inputting Panel”**
 - **“Experimental Information Panel”**
 - **“Automated Parameters setting Panel”**
-<<<<<<< HEAD
 - **“Results Panel”**.
-=======
-- and **“Results Panel”**.
->>>>>>> 2a58733 (upload workflow figure)
+- **“Results Panel”**.
+
 
 <p align="center">
 <img align="middle" src="fig/GUI.png" width="500" alt="trg"/>
@@ -45,7 +43,7 @@ The DSAS is divided four steps:
 &ensp;&ensp;&ensp;&ensp;(4) **Peak search and refinement.**   
 
 <p align="center">
-<img align="middle" src="fig/workflow_low.tif" width="500" alt="trg"/>
+<img align="middle" src="fig/workflow_low.png" width="500" alt="trg"/>
 </p>
 
 ## Authors
