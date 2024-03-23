@@ -377,7 +377,7 @@ class MyApplication(QWidget):
         self.axis_x.setLabelFormat("%d") #横轴值设为整数
         self.axis_x.setMinorTickCount(1) #添加子刻表线
 
-        self.axis_x.setTitleText("Iteration")
+        self.axis_x.setTitleText("Trials")
         self.chart.addAxis(self.axis_x, Qt.AlignBottom)  # 将横坐标轴添加到图表中
 
         # 创建纵坐标轴
@@ -408,7 +408,7 @@ class MyApplication(QWidget):
         self.result_table.setColumnWidth(1, 149)
         self.result_table.setFixedWidth(300)
         self.result_table.setFixedHeight(460)
-        self.result_table.setHorizontalHeaderLabels(["结果", "CC"])
+        self.result_table.setHorizontalHeaderLabels(["Files", "CC"])
 
         self.workerThread.result.connect(self.updateResult)
 
